@@ -1,9 +1,12 @@
+
+/* Fondo de la web */
 body {
   background-image:url(https://images.unsplash.com/photo-1575908524891-b0bdd2b99f90?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1032&q=80);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+/* Header de la web, modificamos el h1 */
 header h1{
   margin: 20px;
   text-transform: uppercase;
@@ -11,22 +14,26 @@ header h1{
   text-align: center;
 }
 
+/* Modificamos la barra de navegación */
 nav{
   width: 100%;
   position: relative;
   text-align:center;
 }
 
+/* Modificamos la lista */
 nav ul{
 list-style-type: none;
 padding-left:0px !important;
 }
 
+/* Modificamos los elementos de la lista */
 nav li{
 display: inline-block;
 margin: 0px 15px;
 }
 
+/* Modificamos los enlaces de la lista */
 nav li a{
 font-family: 'Arial';
   font-weight:500;
@@ -39,6 +46,7 @@ font-family: 'Arial';
   display:inline-block;
 }
 
+/* Modificamos lo que hay despues de los enlaces de la lista*/
 nav li a:before{
   content:'';
   position: absolute;
@@ -49,52 +57,58 @@ nav li a:before{
   animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
 }
 
+/* Modificamos lo que hay despues de pasar el raton por encima de los enlaces de la lista */
 nav li a:hover:before{
 animation:in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
 
 }
 
+/* Le decimos que hacer cuando empiece la animacion */
 @keyframes in{
-0%{
+from{
   width: 0;
   left:0;
   right:auto;
 }
-100%{
+to{
   left:0;
   right:auto;
   width: 100%;
 }
 }
+
+/* Le decimos que hacer cuando acabe la animacion */
 @keyframes out{
-0%{
+from{
   width:100%;
   left: auto;
   right: 0;
-}
-100%{
+} to{
   width: 0;
   left: auto;
   right: 0;
-}
-}
-@keyframes show{
-0%{
-  opacity:0;
-  transform:translateY(-10px);
-}
-100%{
-  opacity:1;
-  transform:translateY(0);
-}
+    }
 }
 
+/*Le decimos que hacer cuando se muestre la animación*/
+@keyframes show{
+from{
+  opacity:0;
+  transform:translateY(-10px);
+} to{
+  opacity:1;
+  transform:translateY(0);
+    }
+}
+
+/* Loop de CSS*/
 @for $i from 1 through 5 {
   nav a:nth-child(#{$i}){
   animation:show .2s #{$i*0.1+1}s ease 1 both;
 }
 }
 
+/* Modificamos el footer */
 footer {
   height:50px;
   line-height:50px;
@@ -107,6 +121,7 @@ footer {
   width:100%;
 }
 
+/*Modificamos los enlaces del footer*/
 footer div a{
   text-decoration:none;
   color: white;
