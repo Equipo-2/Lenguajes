@@ -1,8 +1,22 @@
 .bordes{
+    border-style: solid ; /*Estilo de borde*/
+    border-width: 2px; /*Grosor de borde*/
+    border-left: 4px solid rgba(20, 125, 245, 0.925); /*Color del borde izquierdo*/
+    border-right: 4px solid rgba(20, 125, 245, 0.925); /*Color del borde derecho*/
+    background-color: lightgrey; /*Color del fondo del borde*/
+    border-radius: 9px; /*Grosor del radio del borde para hacerlo redondeado*/
+    padding-left: 30px; /*Relleno de la parte izquierda*/
+    padding-right: 30px; /*Relleno de la parte derecha*/
+    outline-style: inset; /*Relleno externo de esta parte*/
+    
+}
+.bordes2{
     border-style: solid ;
     border-width: 2px;
-    border-left: 4px solid rgba(20, 125, 245, 0.925);
-    border-right: 4px solid;
+    border-bottom: 4px solid rgba(20, 125, 245, 0.925); /*Borde subrayado*/
     background-color: lightgrey;
-    border-radius: 5px;
+    border-radius: 9px;
+    padding-right: 30px;
+    padding-left: 30px;
+    
 }
