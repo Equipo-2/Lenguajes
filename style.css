@@ -95,21 +95,6 @@ animation:in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
 }
 }
 
-article h2 {
-  text-align: center;
-  margin-top: 5%;
-}
-
-article img {
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50px;
-  height: 50%;
-  width: 50%;
-  margin-top: 2%;
-  display:block;
-}
-
 footer {
   height:50px;
   line-height:50px;
@@ -125,17 +110,4 @@ footer {
 footer div a{
   text-decoration:none;
   color: white;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 300px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
