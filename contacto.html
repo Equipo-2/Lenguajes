@@ -12,7 +12,7 @@
     <!-- Responsive (que la página se adapte a dispositivos móviles) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Favicon tope flama pa que nuestra web quede to reshulona-->
-    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="form.css" />
     <link rel="icon" type="image/png" href="./img/favicon.png" />
     <link rel="stylesheet" href="style.css"/>
   </head>
@@ -44,46 +44,48 @@
           </li>
         </ul>
       </nav>
-        <p> Aquí podras comunicarte con nosotros para que te resolvamos tus dudas, te pedimos cosas to shungas en el formulario para que se te quiten las ganas de escribirnos y cuando acabes le des a reset y se te vaya todo, de nada.
     <!--Tabla formulario y mapa-->
     <section>
       <h1>¿Tienes dudas? ¡Contáctanos!</h1>
+      <!--Mapa-->
+      <aside>    
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.7184396746134!2d-4.474509184368632!3d36.705303280734825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f792930e5b41%3A0xb2eb350831766070!2sGIANTS%20GAMING!5e0!3m2!1ses!2ses!4v1634147563592!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </aside>
       <!--Formulario-->
       <form class="formulario">
         <!--Nombre de la persona, minimo 5 caracteres, máximo 30, Obligatorio-->
         <label for="name">Nombre*:</label></br>
-        <input type="text" id="name" placeholder="Antonio, por ejemplo" minlength="5" maxlength="30" size="30" title="Letras. Tamaño mínimo: 5. Tamaño máximo: 30" required/></br>
+        <input type="text" id="name" placeholder="Introduce tu nombre" minlength="5" maxlength="30" size="30" title="Debes introducir 5 y 30 letras." required/></br>
         <!--Telefono de la persona, minimo 5 caracteres, máximo 30, Obligatorio-->
         <label for="tel">Teléfono*:</label></br>
-        <input type="tel" id="tel" placeholder="XXX XX XX XX" minlength="5" maxlength="9" size="30" title="Números. Tamaño: 9 caracteres" required/></br>
+        <input type="tel" id="tel" placeholder="XXX XX XX XX" minlength="5" maxlength="9" size="30" title="Debes introducir solo números, tamaño máximo 9." required/></br>
         <!--Correo de la persona, minimo 5 caracteres, máximo 30, Obligatorio-->
         <label for="mail">Correo electrónico*:</label></br>
-        <input type="email" id="mail" placeholder="ejemplo@ejemplo.com" minlength="5" maxlength="50" size="30" title="Correo electronico. Tamaño mínimo: 5. Tamaño máximo: 50" required/></br>
+        <input type="email" id="mail" placeholder="ejemplo@ejemplo.com" minlength="5" maxlength="50" size="30" title="Debes introducir un formato de correo correcto, tamaño mínimo de 5 y máximo de 50." required/></br>
         <!--Campo de selección de asunto que se refiere Obligatorio-->
         <label for="Asunto">Asunto*:</label></br>
         <select id="simple" name="simple" required>
-            <option>Camiseta de España</option>
-            <option selected>Camiseta Morada</option>
-            <option>Camiseta Verde</option>
+            <option disabled selected value>Selecciona uno</option>
+            <option>Sugerencias</option>
+            <option>Merchandising</option>
+            <option>Problemas con la web</option>
           </select></br>
-        <!--Genero de la persona, Mujer o Hombre-->
-        <label for="Genero">Sexo*:</label></br>
+        <!--Género de la persona-->
+        <label for="Genero">Género*:</label></br>
         <input type="radio" id="GenChoice1" name="contact" value="mujer">
         <label for="GenChoice1">Mujer</label>
         <input type="radio" id="GenChoice2" name="contact" value="hombre">
-        <label for="GenChoice2">Hombre</label><br>
-        <!--Mensaje de la persona, minimo 5 caracteres, máximo 500, Obligatorio-->
-        <textarea type="text" id="message" placeholder="Aquí tu mensaje super interesante" minlength="5" maxlength="500" size="30" rows="8" cols="40" title="Letras y números. Tamaño mínimo: 5. Tamaño máximo: 500" required></textarea></br>
+        <label for="GenChoice2">Hombre</label>
+        <input type="radio" id="GenChoice3" name="contact" value="non-binary">
+        <label for="GenChoice3">No binario</label><br>
+        <!--Mensaje de la persona, mínimo 5 caracteres, máximo 500. Obligatorio-->
+        <textarea type="text" id="message" placeholder="Escribe aquí tu mensaje" minlength="5" maxlength="500" size="30" rows="8" cols="40" title="Escribe un texto de entre 5 y 500 caracteres." required></textarea></br>
         <!--Checkbox de terminos y condiciones-->
-        <label for="Check"><input type="checkbox" id="check" required>Acepta nuestros <a href="#">términos y condiciones</a> donde te robaremos todo lo que podamos y más</label></br>
+        <label for="Check"><input type="checkbox" id="check" required>Al hacer clic aceptas nuestros <a href="#">términos y condiciones</a>.</label></br>
         <!--Botón de enviar y resetear-->
         <input id="submit_button" type="submit" value="Mandar mensaje" /><input id="reset" type="reset" value="Resetear" />
       </form>
     </section>
-    <aside>    
-      <!--Mapa pa que sepas donde no estamos-->
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.7184396746134!2d-4.474509184368632!3d36.705303280734825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f792930e5b41%3A0xb2eb350831766070!2sGIANTS%20GAMING!5e0!3m2!1ses!2ses!4v1634147563592!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </aside>
     <footer>
       <div>
         2021 &copy; Dream Team Store | <a href="./avisolegal.html">Aviso Legal</a> |
