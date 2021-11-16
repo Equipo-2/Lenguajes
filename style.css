@@ -1,5 +1,5 @@
 body {
-  background-image:url(https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=876&q=80);
+  background-image:url(https://images.unsplash.com/photo-1575908524891-b0bdd2b99f90?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1032&q=80);
   background-size: cover;
 }
 
@@ -13,17 +13,17 @@ header h1{
 nav{
   width: 100%;
   position: absolute;
-  top:70px;
   text-align:center;
 }
 
 nav ul{
 list-style-type: none;
-overflow: hidden;
+padding-left:0px !important;
 }
 
 nav li{
 display: inline-block;
+margin: 0px 15px;
 }
 
 nav li a{
@@ -32,7 +32,6 @@ font-family: 'Arial';
   text-transform:uppercase;
   text-decoration:none;
   color:#16151b;
-  margin:0 15px;
   font-size:16px;
   letter-spacing:1px;
   position:relative;
