@@ -19,12 +19,15 @@ nav{
   width: 100%;
   position: relative;
   text-align:center;
+  background-color: white;
+  height: 50px;
 }
 
 /* Modificamos la lista */
 nav ul{
 list-style-type: none;
 padding-left:0px !important;
+display: inline-block;
 }
 
 /* Modificamos los elementos de la lista */
