@@ -6,7 +6,6 @@ html {
 /* Fondo de la web */
 body {
   background-color: black;
-  background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
   margin-bottom: 50px;
@@ -16,6 +15,7 @@ body {
 header h1{
   margin: 20px;
   text-transform: uppercase;
+  color: white;
   font-family: 'Arial';
   text-align: center;
 }
