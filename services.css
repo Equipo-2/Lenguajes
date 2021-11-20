@@ -1,3 +1,5 @@
+/* Definimos los parámetros de las columnas */
+
 .column {
     float: left;
     width: 25%;
@@ -37,14 +39,47 @@
     clear: both;
   }
 
+/* Definimos los parámetros de las imágenes dentro de la sección 'services' */
+
 img {
     width: 80%;
     height:auto;
     border-bottom: 2px solid rgb(235, 145, 44);
 }
 
+/* Definimos los parámetros del 'header2' dentro de la sección 'services' */
+
 h2{
     text-transform: uppercase;
     font-family: 'Arial';
     text-align: center;
+}
+
+/* Definimos los parámetros del las columnas responsive para dispositivos móviles */
+
+.column_one {
+  float: left;
+  width: 31.21%;
+  padding: 20px;
+  background-color:rgb(235, 145, 44);
+}
+
+.row_one:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Con '@media' definimos sobre qué atributo queremos realizar los cambios (en este caso, la pantalla) */
+
+@media screen and (max-width: 992px) {
+  .column_one {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column_one {
+    width: 100%;
+  }
 }
