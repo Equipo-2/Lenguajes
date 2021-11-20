@@ -12,11 +12,13 @@ body {
 }
 
 /* Header de la web, modificamos el h1 */
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 header h1{
   margin: 20px;
   text-transform: uppercase;
   color: white;
-  font-family: 'Arial';
+  font-family: 'Righteous', cursive;
   text-align: center;
 }
 
