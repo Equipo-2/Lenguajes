@@ -5,20 +5,19 @@ html {
 
 /* Fondo de la web */
 body {
-  background-color: white;
+  background-color: black;
   background-repeat: no-repeat;
   margin: 0;
   margin-bottom: 50px;
 }
 
+/* Header de la web, modificamos el h1 */
 header {
   background-color: black;
   width: 100%;
   padding-top: 0.1%;
   padding-bottom: 0.1%;
 }
-
-/* Header de la web, modificamos el h1 */
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 header h1{
