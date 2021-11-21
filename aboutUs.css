@@ -1,62 +1,27 @@
 .bordes{
-    border-style: solid ; /*Estilo de borde*/
-    border-width: 2px; /*Grosor de borde*/
-    border-left: 4px solid rgba(20, 125, 245, 0.925); /*Color del borde izquierdo*/
-    border-right: 4px solid rgba(20, 125, 245, 0.925); /*Color del borde derecho*/
+    border-style: dashed;/*Estilo de borde*/
+    border-width: 1px;/*Grosor de borde*/
+    border-left: #dd1c21;/*Color del borde izquierdo*/
+    border-right:#dd1c21 ;/*Color del borde derecho*/
     background-color: lightgrey; /*Color del fondo del borde*/
-    border-radius: 9px; /*Grosor del radio del borde para hacerlo redondeado*/
+    border-radius: 9px;/*Grosor del radio del borde para hacerlo redondeado*/
     padding-left: 30px; /*Relleno de la parte izquierda*/
     padding-right: 30px; /*Relleno de la parte derecha*/
-    outline-style: inset; /*Relleno externo de esta parte*/
-    
+    outline-style: dotted; /*Relleno externo de esta parte*/
+    outline-color:#dd1c21;
+  
+
 }
 .bordes2{
     border-style: solid ;
-    border-width: 2px;
-    border-bottom: 4px solid rgba(20, 125, 245, 0.925); /*Borde subrayado*/
+    border-width: 2px ;
+    border-top: floralwhite ;
+    border-left: floralwhite;
+    border-right: floralwhite;
+    border-bottom: 4px solid #dd1c21; /*Borde subrayado*/
     background-color: lightgrey;
-    border-radius: 9px;
     padding-right: 30px;
     padding-left: 30px;
+    border-radius: 9px;
     
-}
-
-.column2 {
-    width: 50%;
-}
-
-.column2 h1 {
-    color: black;
-    font-size: 50px;
-}
-
-.column2 p {
-    color: black;
-    font-size: 25px;
-    margin-right: 25px;
-}
-
-.column1-5 {
-    width: 20%;
-    text-align: center;
-}
-
-.column2-5 {
-    width: 20%;
-    text-align: center;
-}
-
-.column3-5 {
-    width: 20%;
-    text-align: center;
-}
-
-.column4-5 {
-    width: 20%;
-    text-align: center;
-}
-
-.column5-5 {
-    width: 20%;
-    text-align: center;
 }
