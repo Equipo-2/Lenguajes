@@ -11,8 +11,14 @@ body {
   margin-bottom: 50px;
 }
 
+header {
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
 /* Header de la web, modificamos el h1 */
-
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 header h1{
   margin: 20px;
