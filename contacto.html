@@ -58,42 +58,52 @@
       <!--Formulario-->
       <form class="formulario">
         <!--Nombre de la persona, minimo 5 caracteres, máximo 30, Obligatorio-->
-        <label for="name">Nombre*:</label></br>
-        <input type="text" id="name" placeholder="Introduce tu nombre" minlength="5" maxlength="30" size="30" title="Debes introducir 5 y 30 letras." required/></br>
+        <div class="margenForm">
+          <label for="name">Nombre*:</label>
+          <input type="text" id="name" placeholder="Introduce tu nombre" minlength="5" maxlength="30" size="30" title="Debes introducir 5 y 30 letras." required/>
+        </div>
         <!--Telefono de la persona, minimo 5 caracteres, máximo 30, Obligatorio-->
-        <label for="tel">Teléfono*:</label></br>
-        <input type="tel" id="tel" placeholder="XXX XX XX XX" minlength="5" maxlength="9" size="30" title="Debes introducir solo números, tamaño máximo 9." required/></br>
+        <div class="margenForm">
+          <label for="tel">Teléfono*:</label>
+          <input type="tel" id="tel" placeholder="XXX XX XX XX" minlength="5" maxlength="9" size="30" title="Debes introducir solo números, tamaño máximo 9." required/>
+        </div>
         <!--Correo de la persona, minimo 5 caracteres, máximo 30, Obligatorio-->
-        <label for="mail">Correo electrónico*:</label></br>
-        <input type="email" id="mail" placeholder="ejemplo@ejemplo.com" minlength="5" maxlength="50" size="30" title="Debes introducir un formato de correo correcto, tamaño mínimo de 5 y máximo de 50." required/></br>
+        <div class="margenForm">
+          <label for="mail">Correo electrónico*:</label>
+          <input type="email" id="mail" placeholder="ejemplo@ejemplo.com" minlength="5" maxlength="50" size="30" title="Debes introducir un formato de correo correcto, tamaño mínimo de 5 y máximo de 50." required/>
+        </div>
         <!--Campo de selección de asunto que se refiere Obligatorio-->
-        <label for="Asunto">Asunto*:</label></br>
-        <select id="simple" name="simple" required>
-<<<<<<< HEAD
-            <option disabled selected value>Selecciona uno</option>
-            <option>Sugerencias</option>
-            <option>Merchandising</option>
-            <option>Problemas con la web</option>
-=======
-            <option>Camiseta Azul</option>
-            <option selected>Camiseta Rosa</option>
-            <option>Camiseta Blanca</option>
->>>>>>> 44e2867aa8c1ee99455153b01b193376e154e1d8
-          </select></br>
+        <div class="margenForm">
+          <label for="Asunto">Asunto*:</label>
+          <select id="simple" name="simple" required>
+              <option disabled selected value>Selecciona uno</option>
+              <option>Sugerencias</option>
+              <option>Merchandising</option>
+              <option>Problemas con la web</option>
+          </select>
+        </div>
         <!--Género de la persona-->
-        <label for="Genero">Género*:</label></br>
-        <input type="radio" id="GenChoice1" name="contact" value="mujer">
-        <label for="GenChoice1">Mujer</label>
-        <input type="radio" id="GenChoice2" name="contact" value="hombre">
-        <label for="GenChoice2">Hombre</label>
-        <input type="radio" id="GenChoice3" name="contact" value="non-binary">
-        <label for="GenChoice3">No binario</label><br>
+        <div class="margenForm">
+          <label for="Genero">Género*:</label>
+          <input type="radio" id="GenChoice1" name="contact" value="mujer">
+          <label for="GenChoice1">Mujer</label>
+          <input type="radio" id="GenChoice2" name="contact" value="hombre">
+          <label for="GenChoice2">Hombre</label>
+          <input type="radio" id="GenChoice3" name="contact" value="non-binary">
+          <label for="GenChoice3">No binario</label>
+        </div> 
         <!--Mensaje de la persona, mínimo 5 caracteres, máximo 500. Obligatorio-->
-        <textarea type="text" id="message" placeholder="Escribe aquí tu mensaje" minlength="5" maxlength="500" size="30" rows="8" cols="40" title="Escribe un texto de entre 5 y 500 caracteres." required></textarea></br>
+        <div class="margenForm">
+          <textarea type="text" id="message" placeholder="Escribe aquí tu mensaje" minlength="5" maxlength="500" size="30" rows="8" cols="40" title="Escribe un texto de entre 5 y 500 caracteres." required></textarea>
+        </div>
         <!--Checkbox de terminos y condiciones-->
-        <label for="Check"><input type="checkbox" id="check" required>Al hacer clic aceptas nuestros <a href="#">términos y condiciones</a>.</label></br>
+        <div class="margenForm">
+          <label for="Check"><input type="checkbox" id="check" required>Al hacer clic aceptas nuestros <a href="#">términos y condiciones</a>.</label>
+        </div>
         <!--Botón de enviar y resetear-->
-        <input id="submit_button" type="submit" value="Mandar mensaje" /><input id="reset" type="reset" value="Resetear" />
+        <div class="margenForm">
+          <input id="submit_button" type="submit" value="Enviar" /><input id="reset" type="reset" value="Borrar" />
+        </div>
       </form>
     </section>
     <footer>
