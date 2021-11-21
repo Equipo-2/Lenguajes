@@ -5,19 +5,13 @@ html {
 
 /* Fondo de la web */
 body {
-  background-color: white;
+  background-color: black;
   background-repeat: no-repeat;
   margin: 0;
   margin-bottom: 50px;
 }
 
 /* Header de la web, modificamos el h1 */
-header {
-  background-color: black;
-  width: 100%;
-  padding-top: 0.1%;
-  padding-bottom: 0.1%;
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 header h1{
@@ -35,7 +29,6 @@ nav{
   text-align:center;
   background-color: white;
   height: 50px;
-  text-decoration: none;
 }
 
 /* Modificamos la lista */
@@ -52,9 +45,10 @@ margin: 0px 15px;
 }
 
 /* Modificamos los enlaces de la lista */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
 nav li a{
-font-family: 'Arial';
-  font-weight:500;
+  font-family: 'Dosis', sans-serif;
+  font-weight:600;
   text-transform:uppercase;
   text-decoration:none;
   color:#16151b;
@@ -62,17 +56,74 @@ font-family: 'Arial';
   letter-spacing:1px;
   position:relative;
   display:inline-block;
-  background-image: linear-gradient(currentColor, currentColor);
-	background-position: 0% 100%;
-	background-repeat: no-repeat;
-	background-size: 0% 2px;
-	transition: background-size .3s;
 }
 
-nav li a:hover{
-  background-size: 100% 2px;
-  }
+/* Modificamos lo que hay despues de los enlaces de la lista*/
+nav li a:before{
+  content:'';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background:#16151b;
+  top:47%;
+  animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+}
 
+/* Modificamos lo que hay despues de pasar el raton por encima de los enlaces de la lista */
+nav li a:hover:before{
+animation:in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+p{
+  font-family: 'Baloo 2', cursive;
+  color:#000000;
+}
+
+/* Le decimos que hacer cuando empiece la animacion */
+@keyframes in{
+from{
+  width: 0;
+  left:0;
+  right:auto;
+}
+to{
+  left:0;
+  right:auto;
+  width: 100%;
+}
+}
+
+/* Le decimos que hacer cuando acabe la animacion */
+@keyframes out{
+from{
+  width:100%;
+  left: auto;
+  right: 0;
+} to{
+  width: 0;
+  left: auto;
+  right: 0;
+    }
+}
+
+/*Le decimos que hacer cuando se muestre la animación*/
+@keyframes show{
+from{
+  opacity:0;
+  transform:translateY(-10px);
+} to{
+  opacity:1;
+  transform:translateY(0);
+    }
+}
+
+/* Loop de CSS*/
+@for $i from 1 through 5 {
+  nav a:nth-child(#{$i}){
+  animation:show .2s #{$i*0.1+1}s ease 1 both;
+}
+}
 
 /* Modificamos el footer */
 footer {
