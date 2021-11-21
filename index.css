@@ -21,17 +21,6 @@ article h2 {
     margin:auto;
 }
 
-.equipo .button {
-    margin-left: 50%;
-    background-color: blue;
-    border-radius: 20px;
-    padding: 20px;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    margin-bottom: 1%;
-}
-
 .column2 {
     width: 50%;
 }
@@ -85,7 +74,7 @@ article h2 {
 }
 
 .testimonios {
-    background-color: blue;
+    background-color: #dd1c21;
     height: 300px;
     display: inline-block;
     width: 100%;
@@ -125,12 +114,18 @@ article h2 {
 
 .botoncillo{
     display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 0;
-    
+    justify-content: center;
+    margin: auto;
+    width: 5%;
+    background-color: #dd1c21;
+    border-radius: 20px;
+    padding: 1%;
+    margin-bottom: 1%;
 }
 
 .botoncillo a{
-    padding: 0;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: white;
 }
