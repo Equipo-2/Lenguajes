@@ -10,11 +10,6 @@ article h2 {
     height: 500px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
-h1, h2{
-    font-family: 'Shippori Antique B1', sans-serif;
-}
-
 .column1 {
     width: 50%;
 }
@@ -26,11 +21,10 @@ h1, h2{
     margin:auto;
 }
 
-.equipo .button {
+.equipo a.button {
     text-align: center;
-    background-color:#dd1c21;
+    background-color: blue;
     height: 50px;
-    border: 0px;
     border-radius: 20px;
     padding: 20px;
     color: white;
@@ -40,6 +34,45 @@ h1, h2{
     text-decoration: none;
 }
 
+.column2 {
+    width: 50%;
+}
+
+.column2 h1 {
+    color: black;
+    font-size: 50px;
+}
+
+.column2 p {
+    color: black;
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+.column1-5 {
+    width: 20%;
+    text-align: center;
+}
+
+.column2-5 {
+    width: 20%;
+    text-align: center;
+}
+
+.column3-5 {
+    width: 20%;
+    text-align: center;
+}
+
+.column4-5 {
+    width: 20%;
+    text-align: center;
+}
+
+.column5-5 {
+    width: 20%;
+    text-align: center;
+}
 
 .presentacion {
     margin-left: 5%;
@@ -54,7 +87,7 @@ h1, h2{
 }
 
 .testimonios {
-    background-color: #dd1c21;
+    background-color: red;
     height: 300px;
     display: inline-block;
     width: 100%;
