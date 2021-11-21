@@ -16,14 +16,15 @@
     <link rel="icon" type="image/png" href="./img/favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="style.css"/>
     
   </head>
   <body>
     <header>
-      <!--Titulo de la página-->
-    <h1>Formulario de contacto</h1>
+    <!--Titulo de la página-->
+    <h1 class="titulo">Formulario de contacto</h1>
     </header>
     <!--Barra de navegación-->
     <nav>
@@ -43,34 +44,37 @@
           <li>
             <a href="./contacto.html">Contacto</a>
           </li>
-          <li>
-            <i class="fas fa-ambulance"></i>
-          </li>
         </ul>
       </nav>
     <!--Tabla formulario y mapa-->
     <section>
-      <h1>¿Tienes dudas? ¡Contáctanos!</h1>
+      <h1>¿Tienes dudas? <strong>¡Contáctanos!</strong></h1>
       <!--Mapa-->
-      <aside>    
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.7184396746134!2d-4.474509184368632!3d36.705303280734825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f792930e5b41%3A0xb2eb350831766070!2sGIANTS%20GAMING!5e0!3m2!1ses!2ses!4v1634147563592!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <aside>
+        <div class="iframe-rwd">   
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.7184396746134!2d-4.474509184368632!3d36.705303280734825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f792930e5b41%3A0xb2eb350831766070!2sGIANTS%20GAMING!5e0!3m2!1ses!2ses!4v1634147563592!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </aside>
       </aside>
       <!--Formulario-->
       <form class="formulario">
         <!--Nombre de la persona, minimo 5 caracteres, máximo 30, Obligatorio-->
-        <div class="margenForm">
+        <div class="margenForm nombre">
           <label for="name">Nombre*:</label>
           <input type="text" id="name" placeholder="Introduce tu nombre" minlength="5" maxlength="30" size="30" title="Debes introducir 5 y 30 letras." required/>
+          <i class="fa fa-user fa-lg"></i>
         </div>
-        <!--Telefono de la persona, minimo 5 caracteres, máximo 30, Obligatorio-->
-        <div class="margenForm">
+        <!--Telefono de la persona, minimo 5 caracteres, máximo 30, Obligatorio. Introducimos un patrón para comprobar que, realmente, se está introduciendo un teléfono.-->
+        <div class="margenForm telefono">
           <label for="tel">Teléfono*:</label>
-          <input type="tel" id="tel" placeholder="XXX XX XX XX" minlength="5" maxlength="9" size="30" title="Debes introducir solo números, tamaño máximo 9." required/>
+          <input type="tel" id="phone" pattern="^[9|8|7|6]\d{8}$" placeholder="6XXXXXXXX" minlength="5" maxlength="9" size="30" title="Debes introducir solo números, tamaño máximo 9. Debe ser un teléfono español y empezar por 9 u 8 si es un fijo, o por 6 o 7 si es un móvil." required/>
+          <i class="fa fa-phone fa-lg"></i>
         </div>
         <!--Correo de la persona, minimo 5 caracteres, máximo 30, Obligatorio-->
-        <div class="margenForm">
-          <label for="mail">Correo electrónico*:</label>
-          <input type="email" id="mail" placeholder="ejemplo@ejemplo.com" minlength="5" maxlength="50" size="30" title="Debes introducir un formato de correo correcto, tamaño mínimo de 5 y máximo de 50." required/>
+        <div class="margenForm correo">
+          <label for="email">Correo electrónico*:</label>
+          <input type="email" id="email" placeholder="ejemplo@ejemplo.com" minlength="5" maxlength="50" size="30" title="Debes introducir un formato de correo correcto, tamaño mínimo de 5 y máximo de 50." required/>
+          <i class="fa fa-envelope fa-lg"></i>
         </div>
         <!--Campo de selección de asunto que se refiere Obligatorio-->
         <div class="margenForm">
@@ -93,7 +97,7 @@
           <label for="GenChoice3">No binario</label>
         </div> 
         <!--Mensaje de la persona, mínimo 5 caracteres, máximo 500. Obligatorio-->
-        <div class="margenForm">
+        <div class="margenForm mensaje">
           <textarea type="text" id="message" placeholder="Escribe aquí tu mensaje" minlength="5" maxlength="500" size="30" rows="8" cols="40" title="Escribe un texto de entre 5 y 500 caracteres." required></textarea>
         </div>
         <!--Checkbox de terminos y condiciones-->

@@ -11,8 +11,6 @@ article img {
     background-color: white;
 }
 
-
-
 .header {
     background-image: url("./img/LandingIMG.png");
     background-size: cover;
@@ -35,6 +33,6 @@ article img {
 .column2 p {
     display: table-cell;
     vertical-align: middle;
-    color:white;
+    color:black;
 }
 

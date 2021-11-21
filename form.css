@@ -1,13 +1,17 @@
 section{
     margin: auto;
-    width: 60%;
+    width: 70%;
     padding: 10px;
     background-color: white;
 }
 
-h1{
+section h1{
     text-align: center;
+    text-transform: uppercase;
     margin-bottom: 5%;
+}
+section h1 strong{
+    color: #dd1c21;
 }
 
 aside{
@@ -45,3 +49,51 @@ input[type=button], input[type=submit], input[type=reset] {
     cursor: pointer;
     transition: all .25s ease-in-out;
   }
+
+@media screen and (max-width: 900px) {
+    .margenForm, input[type=submit], input[type=reset] {
+      width: 100%;
+      margin-top: 0;
+    }
+}
+
+/* Para evitar que el mapa se superponga con el formulario, lo mandamos abajo y hacemos que su tamaño sea variable */
+@media (max-width:1600px) {
+    /* Alineamos todo al centro */
+    body {
+        text-align: center;
+    }
+    form {
+        display: inline-block;
+    }
+    section {
+        display:-webkit-flex;
+        display:flex;
+        -webkit-flex-direction:column;
+        flex-direction:column;
+    }
+    section article {
+        -webkit-order:1;
+        order:1;
+    }
+    section aside {
+        -webkit-order:2;
+        order:2;
+        float:initial;
+        width:initial;
+    }
+    .iframe-rwd iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .iframe-rwd  {
+        position: relative;
+        padding-bottom: 65.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+    }
+}
