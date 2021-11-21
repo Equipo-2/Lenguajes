@@ -12,6 +12,12 @@ body {
 }
 
 /* Header de la web, modificamos el h1 */
+header {
+  background-color: black;
+  width: 100%;
+  padding-top: 0.1%;
+  padding-bottom: 0.1%;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 header h1{
@@ -29,6 +35,7 @@ nav{
   text-align:center;
   background-color: white;
   height: 50px;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
 }
 
 /* Modificamos la lista */
