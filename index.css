@@ -62,4 +62,50 @@ article img {
     text-align: center;
 }
 
+.presentacion {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+}
+
+.presentacion img {
+    width: 100%;
+    height: 340px;
+    padding: 3%;
+}
+
+.testimonios {
+    background-color: blue;
+    height: 300px;
+    display: inline-block;
+    width: 100%;
+}
+
+.testimonios h2 {
+    text-align: center;
+    color: white;
+}
+
+.testimonios p#text {
+    text-align: center;
+    font-style: italic;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+}
+
+.testimonios p#cliente {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: bold;
+    color: white;
+}
+
+.testimonios p#puesto {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+}
 
