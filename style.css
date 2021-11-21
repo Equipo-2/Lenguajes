@@ -45,9 +45,10 @@ margin: 0px 15px;
 }
 
 /* Modificamos los enlaces de la lista */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
 nav li a{
-font-family: 'Arial';
-  font-weight:500;
+  font-family: 'Dosis', sans-serif;
+  font-weight:600;
   text-transform:uppercase;
   text-decoration:none;
   color:#16151b;
@@ -71,7 +72,12 @@ nav li a:before{
 /* Modificamos lo que hay despues de pasar el raton por encima de los enlaces de la lista */
 nav li a:hover:before{
 animation:in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+}
 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+p{
+  font-family: 'Baloo 2', cursive;
+  color:#ffffff;
 }
 
 /* Le decimos que hacer cuando empiece la animacion */
