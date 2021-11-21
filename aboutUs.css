@@ -20,3 +20,43 @@
     padding-left: 30px;
     
 }
+
+.column2 {
+    width: 50%;
+}
+
+.column2 h1 {
+    color: black;
+    font-size: 50px;
+}
+
+.column2 p {
+    color: black;
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+.column1-5 {
+    width: 20%;
+    text-align: center;
+}
+
+.column2-5 {
+    width: 20%;
+    text-align: center;
+}
+
+.column3-5 {
+    width: 20%;
+    text-align: center;
+}
+
+.column4-5 {
+    width: 20%;
+    text-align: center;
+}
+
+.column5-5 {
+    width: 20%;
+    text-align: center;
+}
