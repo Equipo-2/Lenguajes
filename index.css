@@ -21,11 +21,10 @@ article h2 {
     margin:auto;
 }
 
-.equipo .button {
+.equipo a.button {
     text-align: center;
     background-color: blue;
     height: 50px;
-    border: 0px;
     border-radius: 20px;
     padding: 20px;
     color: white;
@@ -88,7 +87,7 @@ article h2 {
 }
 
 .testimonios {
-    background-color: blue;
+    background-color: red;
     height: 300px;
     display: inline-block;
     width: 100%;
