@@ -18,7 +18,7 @@ header {
   display: inline-block;
 }
 /* Header de la web, modificamos el h1 */
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap'); /* Import de la fuente */
 header h1{
   margin: 20px;
   font-size:3.5em;
