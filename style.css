@@ -28,6 +28,11 @@ header h1{
   text-align: center;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+h1{
+  font-family: 'Shippori Antique B1', sans-serif;
+}
+
 /* Modificamos la barra de navegación */
 nav{
   width: 100%;
