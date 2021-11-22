@@ -51,33 +51,13 @@ img {
 
 h2{
     text-transform: uppercase;
-    font-family: 'Arial';
+    font-family: 'Shippori Antique B1', sans-serif;
     text-align: center;
     padding-bottom: 5%;
     margin-top: -10%;
 }
 
-h3{
-  text-transform: uppercase;
-  font-family: 'Arial';
-  text-align: center;
-  padding-bottom: 5%;
-}
-
 /* Definimos los parámetros del las columnas responsive para dispositivos móviles */
-
-.column_one {
-  float: left;
-  width: 31.21%;
-  padding: 20px;
-  background-color:rgb(211, 54, 49); /*235, 145, 44*/
-}
-
-.row_one:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 .column_text {
   column-count: 3;
@@ -90,36 +70,14 @@ h3{
 
 /* Con '@media' definimos sobre qué atributo queremos realizar los cambios (en este caso, la pantalla) */
 
-@media screen and (max-width: 992px) {
-  .column_one {
-    width: 50%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .column_one {
-    width: 91%;
-    padding: -40%;
-  }
-}
-
 @media screen and (max-width: 600px) {
   h2{
     text-transform: uppercase;
-    font-family: 'Arial';
+    font-family: 'Shippori Antique B1', sans-serif;
     font-size: 90%;
     text-align: center;
     padding-bottom: 5%;
     margin-top: -5%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  h3{
-    text-transform: uppercase;
-    font-family: 'Arial';
-    font-size: 222%;
-    text-align: center;
   }
 }
 
