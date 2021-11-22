@@ -105,3 +105,11 @@ body#contacto {
   background-repeat: auto;
   background-size: cover;
 }
+
+section#contacto {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-radius: 50px;
+  background-color: white;
+  opacity: .90;
+}
