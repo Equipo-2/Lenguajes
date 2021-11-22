@@ -5,7 +5,9 @@ section{
     background-color: white;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
 section h1{
+    font-family: 'Shippori Antique B1', sans-serif;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 5%;
@@ -48,6 +50,7 @@ input[type=button], input[type=submit], input[type=reset] {
     margin: 4px 2px;
     cursor: pointer;
     transition: all .25s ease-in-out;
+      font-family: 'Dosis', sans-serif;
   }
 
 @media screen and (max-width: 900px) {
@@ -62,6 +65,7 @@ input[type=button], input[type=submit], input[type=reset] {
     /* Alineamos todo al centro */
     body {
         text-align: center;
+        
     }
     form {
         display: inline-block;
