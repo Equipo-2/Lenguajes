@@ -99,3 +99,9 @@ footer div a{
   text-decoration:none;
   color: white;
 }
+
+body#contacto {
+  background-image: url("https://images.unsplash.com/photo-1637300482080-20b0a706f9fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1075&q=80");
+  background-repeat: auto;
+  background-size: cover;
+}
