@@ -8,33 +8,36 @@
     padding-left: 30px; /*Relleno de la parte izquierda*/
     padding-right: 30px; /*Relleno de la parte derecha*/
     outline-style: solid; /*Relleno externo de esta parte*/
-    outline-color:#dd1c21;
+    outline-color:#dd1c21; /*Color de la línea externa*/
   
 
 }
 .bordes2{
     border-style: solid ;
     border-width: 2px ;
-    border-top: floralwhite ;
-    border-left: floralwhite;
+    border-top: floralwhite ; /*Color del borde superior*/
+    border-left: floralwhite; 
     border-right: floralwhite;
-    border-bottom: 4px solid #dd1c21; /*Borde subrayado*/
-    background-color: lightgrey;
-    padding-right: 30px;
-    padding-left: 30px;
+    border-bottom: 4px solid #dd1c21; /*Borde subrayado, con color del borde establecido*/
+    background-color: rgb(250, 133, 133); /*Color de fondo de la parte de abajo de la tabla */
+    padding-right: 30px; 
+    padding-left: 30px; 
     border-radius: 9px;    
 }
 
+/* Importamos la fuente Shippori a titulo 2 */
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
 h2{
     font-family: 'Shippori Antique B1', sans-serif;
     text-align: center;
 }
 
+/* Modificamos el h3 poniendo la fuente Shippori */
 h3{
     font-family: 'Shippori Antique B1', sans-serif;
 }
 
+/* Modificamos el parrafo, ajustando el tamaño que ocupa al 60%, añadiendole unos margenes automaticos, alineandolo al centro, y añadiendo un margen debajo del 2% */
 p {
     width: 60%;
     margin: auto;
@@ -42,11 +45,16 @@ p {
     margin-bottom: 2%;
 }
 
+/* Modificamos el iframe (video) ajustando su tamaño al 60% y margen de la izq al 20% para que esté centrado y su radio sea de 50px */
 iframe{
     width: 60%;
     margin-left: 20%;
+    margin: 0 auto;
+    display:block;
+    border-radius: 50px;
 }
 
+/* Modificamos la clase video, poniendo su tamaño al 100%, el fondo a color negro, con un paddig arriba y abajo */
 .video{
     width: 100%;
     background-color: black;
@@ -54,14 +62,17 @@ iframe{
     padding-bottom: 1%;
 }
 
+/* Modificamos la pagina para que se ajuste al tamaño del dispositivo */
 html {
     box-sizing: border-box;
 }
-  
+
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
-  
+
+/* Modificamos la columna para que esté a la izquierda, el tamaño al 20%, margen debajo de 16 pixeles y un padding de 0 en los arriba y abajo y en laterales 8px */
 .column {
     float: left;
     width: 20%;
@@ -69,6 +80,7 @@ html {
     padding: 0 8px;
 }
 
+/* Modificamos la columna para que ocupe el 100% cuando la pagina sea hasta 1020px, display block, impide que haya objetos en el lateral */
 @media screen and (max-width: 1020px) {
     .column {
     width: 100%;
@@ -76,43 +88,49 @@ html {
 }
 }
 
+/* Modificamos card, añadiendole una sombra  */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+/* Modificamos el container dandole padding en los laterales de 16px */
 .container {
     padding: 0 16px;
 }
 
+/* Modificamos antes y despues del container deja espacio para el siguiente bloque y aplica un estilo de tabla */
 .container::after, .row::after {
     content: "";
     clear: both;
     display: table;
 }
 
+/* Modificamos las imagenes de card, para que ocupen el 100% y la altura sea automatica */
 .card img{
     width: 100%;
     height: auto;
 }
 
+/* Modifcamos el horario, para que esté centrado y el espacio que ocupa sea la mitad */
 .horario{
     margin: auto;
     width: 50%;
     text-align: center;
 }
 
+/* Modificamos la tabla de horario, para centrarla */
 .horario table{
     margin-left: auto;
     margin-right: auto;
 }
 
+/* Modificamos la leyenda de la imagen, Reduce espacios en blanco igual que el modo normal, pero suprime saltos de linea del origen. */
 .linebreak{
     white-space: nowrap;
 }
 
-iframe {
-    margin: 0 auto;
-    display:block;
-    border-radius: 50px;
+/* Alineamos el texto se la sección objetivo */
+section.objetivo {
+    text-align: center;
 }
 
