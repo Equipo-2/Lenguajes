@@ -79,6 +79,15 @@ h3{
   clear: both;
 }
 
+.column_text {
+  column-count: 3;
+  column-gap: 35px;
+  column-rule: 4px solid #b41c35;
+  text-align: justify;
+  padding: 5%;
+  font-family: 'Shippori Antique B1', sans-serif;
+}
+
 /* Con '@media' definimos sobre qué atributo queremos realizar los cambios (en este caso, la pantalla) */
 
 @media screen and (max-width: 992px) {
@@ -89,6 +98,47 @@ h3{
 
 @media screen and (max-width: 600px) {
   .column_one {
-    width: 100%;
+    width: 91%;
+    padding: -40%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h2{
+    text-transform: uppercase;
+    font-family: 'Arial';
+    font-size: 90%;
+    text-align: center;
+    padding-bottom: 5%;
+    margin-top: -5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h3{
+    text-transform: uppercase;
+    font-family: 'Arial';
+    font-size: 222%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    width: 110%;
+    height:auto;
+    border-bottom: 2px solid rgb(165, 25, 20); /*235, 145, 44*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column_text {
+    column-count: 1;
+    column-gap: 35px;
+    column-rule: 4px solid #b41c35;
+    text-align: justify;
+    font-size: 80%;
+    padding: 5%;
+    font-family: 'Shippori Antique B1', sans-serif;
   }
 }
