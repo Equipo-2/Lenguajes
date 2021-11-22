@@ -32,6 +32,10 @@ h2{
     text-align: center;
 }
 
+h3{
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
 p {
     width: 60%;
     margin: auto;
@@ -41,7 +45,14 @@ p {
 
 iframe{
     width: 60%;
-    margin: auto;
+    margin-left: 20%;
+}
+
+.video{
+    width: 100%;
+    background-color: black;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 html {
@@ -85,21 +96,7 @@ html {
     height: auto;
 }
 
-iframe {
-    margin: 0 auto;
-    display:block;
-    border-radius: 50px;
-}
-
-section.objetivo {
-    text-align: center;
-}
-
-section.horario {
-    text-align: center;
-}
-
-section.horario table {
-    margin: 0 auto;
-    margin-bottom: 5%;
+.horario{
+    width: 60%;
+    margin: auto
 }
