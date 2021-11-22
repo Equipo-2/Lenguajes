@@ -102,7 +102,9 @@ footer div a{
 
 body#contacto {
   background-image: url("https://images.unsplash.com/photo-1637300482080-20b0a706f9fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1075&q=80");
-  background-repeat: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -110,6 +112,6 @@ section#contacto {
   margin-top: 10%;
   margin-bottom: 10%;
   border-radius: 50px;
-  background-color: white;
+  background-image: linear-gradient(to top, gray, white);
   opacity: .90;
 }
