@@ -32,6 +32,8 @@ h1,h2,h3 {
     height: 50%;
     display:block;
     margin:auto;
+    opacity: .95;
+    -webkit-box-reflect: left 0 linear-gradient(transparent, white);
 }
 
 .column2 {
@@ -41,7 +43,6 @@ h1,h2,h3 {
 .column2 h1 {
     color: black;
     font-size: 50px;
-    -webkit-box-reflect: above 0 linear-gradient(transparent, white);
 }
 
 .column2 p {
