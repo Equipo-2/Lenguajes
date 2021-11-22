@@ -2,6 +2,14 @@ article h2 {
     text-align: center;
     margin-top: 5%;
 }
+
+.column2 h1 {
+    font-size: 50px;
+}
+
+.column2 p {
+    font-size: 30px;
+}
   
 .header {
     background-image: url("https://images.unsplash.com/photo-1612972806701-9cffb7470ed2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
@@ -135,4 +143,27 @@ h1,h2 {
     text-align: center;
     color: white;
     white-space: nowrap;
+}
+
+.servicios .column {
+    width: 33%;
+    text-align: center;
+}
+
+.servicios {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.servicios img {
+    height: 400px;
+    width: 400px;
+    display:block;
+    margin:auto;
+    border-radius: 50px;
+}
+
+.servicios img#asesoria {
+    background-color: gray;
 }
