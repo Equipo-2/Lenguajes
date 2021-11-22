@@ -90,3 +90,16 @@ iframe {
     display:block;
     border-radius: 50px;
 }
+
+section.objetivo {
+    text-align: center;
+}
+
+section.horario {
+    text-align: center;
+}
+
+section.horario table {
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
