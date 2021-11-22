@@ -64,12 +64,6 @@ select:focus > option:checked {
     background: #dd1c21 !important;
 }
 
-.formularioGaleria{
-    display: table;
-    margin: 0 auto;
-    text-align: center;
-  }
-
 @media screen and (max-width: 900px) {
     .margenForm, input[type=submit], input[type=reset] {
       width: 100%;
