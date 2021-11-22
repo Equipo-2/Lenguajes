@@ -129,7 +129,7 @@ html {
     white-space: nowrap;
 }
 
-
+/* Alineamos el texto se la sección objetivo */
 section.objetivo {
     text-align: center;
 }
