@@ -19,7 +19,7 @@ article h2 {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
-h1,h2 {
+h1,h2,h3 {
     font-family: 'Shippori Antique B1', sans-serif;
 }
 
@@ -143,6 +143,7 @@ h1,h2 {
     text-align: center;
     color: white;
     white-space: nowrap;
+    font-family: 'Shippori Antique B1', sans-serif;
 }
 
 .servicios .column {
