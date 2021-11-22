@@ -7,7 +7,7 @@
     height: auto;
     padding: 4.16%;
     text-align: center;
-    background-color:#fccb62;
+    background-color:#e23137; /*fccb62*/
     /*border: 1px solid rgb(0, 0, 0);*/
   }
  
@@ -18,7 +18,7 @@
     height: auto;
     padding: 4.16%;
     text-align: center;
-    background-color:#fcc54e;
+    background-color:#e7252b; /*fcc54e*/
     /*border: 1px solid rgb(0, 0, 0);*/
   }
 
@@ -29,7 +29,7 @@
     height: auto;
     padding: 4.16%;
     text-align: center;
-    background-color:#fabc36;
+    background-color:#e71a21; /*fabc36*/
     /*border: 1px solid rgb(0, 0, 0);*/
   }
 
@@ -44,7 +44,7 @@
 img {
     width: 80%;
     height:auto;
-    border-bottom: 2px solid rgb(235, 145, 44);
+    border-bottom: 2px solid rgb(199, 25, 19); /*235, 145, 44*/
 }
 
 /* Definimos los parámetros del 'header2' dentro de la sección 'services' */
@@ -61,7 +61,7 @@ h2{
   float: left;
   width: 31.21%;
   padding: 20px;
-  background-color:rgb(235, 145, 44);
+  background-color:rgb(199, 25, 19); /*235, 145, 44*/
 }
 
 .row_one:after {
