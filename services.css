@@ -53,6 +53,15 @@ h2{
     text-transform: uppercase;
     font-family: 'Arial';
     text-align: center;
+    padding-bottom: 5%;
+    margin-top: -10%;
+}
+
+h3{
+  text-transform: uppercase;
+  font-family: 'Arial';
+  text-align: center;
+  padding-bottom: 5%;
 }
 
 /* Definimos los parámetros del las columnas responsive para dispositivos móviles */
