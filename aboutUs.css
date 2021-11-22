@@ -96,8 +96,14 @@ html {
 }
 
 .horario{
-    width: 60%;
-    margin: auto
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.horario table{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .linebreak{
@@ -108,9 +114,5 @@ iframe {
     margin: 0 auto;
     display:block;
     border-radius: 50px;
-}
-
-section.objetivo {
-    text-align: center;
 }
 

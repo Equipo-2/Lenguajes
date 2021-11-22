@@ -5,7 +5,6 @@ section{
     background-color: white;
 }
 
-
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 section h1{
@@ -14,6 +13,7 @@ section h1{
     text-transform: uppercase;
     margin-bottom: 5%;
 }
+
 section h1 strong{
     color: #dd1c21;
 }
@@ -58,6 +58,16 @@ input[type=button], input[type=submit], input[type=reset] {
 
   label, textarea{
     font-family: 'Baloo 2', cursive;
+  }
+
+select:focus > option:checked { 
+    background: #dd1c21 !important;
+}
+
+.formularioGaleria{
+    display: table;
+    margin: 0 auto;
+    text-align: center;
   }
 
 @media screen and (max-width: 900px) {
