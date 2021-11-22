@@ -85,6 +85,10 @@ html {
     height: auto;
 }
 
+.linebreak{
+    white-space: nowrap;
+}
+
 iframe {
     margin: 0 auto;
     display:block;

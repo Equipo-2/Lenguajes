@@ -142,6 +142,7 @@ h1,h2 {
     text-decoration: none;
     text-align: center;
     color: white;
+    white-space: nowrap;
 }
 
 .servicios .column {
