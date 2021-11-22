@@ -1,13 +1,13 @@
 .bordes{
     border-style: dashed;/*Estilo de borde*/
-    border-width: 1px;/*Grosor de borde*/
+    border-width: 0px;/*Grosor de borde*/
     border-left: #dd1c21;/*Color del borde izquierdo*/
     border-right:#dd1c21 ;/*Color del borde derecho*/
     background-color: lightgrey; /*Color del fondo del borde*/
     border-radius: 9px;/*Grosor del radio del borde para hacerlo redondeado*/
     padding-left: 30px; /*Relleno de la parte izquierda*/
     padding-right: 30px; /*Relleno de la parte derecha*/
-    outline-style: dotted; /*Relleno externo de esta parte*/
+    outline-style: solid; /*Relleno externo de esta parte*/
     outline-color:#dd1c21;
   
 
@@ -22,8 +22,7 @@
     background-color: lightgrey;
     padding-right: 30px;
     padding-left: 30px;
-    border-radius: 9px;
-    
+    border-radius: 9px;    
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
