@@ -168,19 +168,19 @@ h1,h2,h3 {
 }
 
 .servicios img#asesoria {
-    background-color: red;
+    background-color: #dd1c21;
     width: 50%;
     height: auto;
 }
 
 .servicios img#camiseta {
-    background-color: red;
+    background-color: #dd1c21;
     width: 50%;
     height: auto;
 }
 
 .servicios img#carrito {
-    background-color: red;
+    background-color: #dd1c21;
     width: 50%;
     height: auto;
 }

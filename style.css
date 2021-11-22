@@ -120,3 +120,8 @@ section#contacto {
   background-image: linear-gradient(to top, gray, white);
   opacity: .90;
 }
+
+.texto{
+  padding-left: 3%;
+  padding-right: 3%;
+}
