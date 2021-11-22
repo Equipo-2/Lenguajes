@@ -1,4 +1,4 @@
-Ajustamos que el tamaño del html sea como minimo el 100% de la pagina y su posicion relativa
+/* Ajustamos que el tamaño del html sea como minimo el 100% de la pagina y su posicion relativa */
 html {
   min-height: 100%;
   position: relative;
@@ -12,7 +12,7 @@ body {
   margin-bottom: 50px;
 }
 
-Modificamos el header, cambiando el color, el tamaño, la posicion y el ajuste
+/* Modificamos el header, cambiando el color, el tamaño, la posicion y el ajuste */
 header {
   background-color: black;
   width: 100%;
