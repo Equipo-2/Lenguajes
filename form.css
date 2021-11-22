@@ -1,3 +1,4 @@
+/* Centramos la sección, le damos espaciado interior y un fondo */
 section{
     margin: auto;
     width: 70%;
@@ -5,6 +6,7 @@ section{
     background-color: white;
 }
 
+/* Importamos las fuentes, centramos el h1, lo ponemos en mayúsculas y le damos un margen inferior */
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 section h1{
@@ -14,18 +16,22 @@ section h1{
     margin-bottom: 5%;
 }
 
+/* Le damos un color diferente a las palabras en negrita */
 section h1 strong{
     color: #dd1c21;
 }
 
+/* Mandamos el aside a la parte derecha */
 aside{
     float: right;
 }
 
+/* Le damos un margen interior al container de los elementos del formulario, para separarlos */
 .margenForm{
     padding: 0 0 15px;
 }
 
+/* Le damos unos márgenes interiores y exteriores, además de darle una fuente; además de darle una forma de caja al input */
 input {
     padding: 12px 20px;
     margin: 8px 0;
@@ -33,6 +39,7 @@ input {
     font-family: 'Baloo 2', cursive;
   }
 
+/* Formateamos la caja donde se introducirá el texto del comentario, le damos una altura, bordes interiores, un borde redondeado y evitamos que se pueda cambiar el tamaño */
 textarea{
     height: 150px;
     padding: 12px 20px;
@@ -40,7 +47,7 @@ textarea{
     border-radius: 4px;
     resize: none;
 }
-
+/* Le damos estilo a los botones y hacemos que el cursor cambie de tipo */
 input[type=button], input[type=submit], input[type=reset] {
     display: inline-block;
     background-color: #dd1c21;
@@ -52,18 +59,20 @@ input[type=button], input[type=submit], input[type=reset] {
     text-transform: uppercase;
     margin: 4px 2px;
     cursor: pointer;
-    transition: all .25s ease-in-out;
     font-family: 'Baloo 2', cursive;
   }
 
-  label, textarea{
+  /* Le damos la fuente a las palabras dentro del label y del textarea */
+label, textarea{
     font-family: 'Baloo 2', cursive;
-  }
+}
 
+/* Hacemos que en el select, el elemento seleccionado inicialmente aparezca en rojo */
 select:focus > option:checked { 
     background: #dd1c21 !important;
 }
 
+/* Hacemos que, cuando la pantalla esté a 900px, se cambie la anchura de los elementos .margenForm, input[type=submit], input[type=reset] */
 @media screen and (max-width: 900px) {
     .margenForm, input[type=submit], input[type=reset] {
       width: 100%;
@@ -76,27 +85,31 @@ select:focus > option:checked {
     /* Alineamos todo al centro */
     body {
         text-align: center;
-        
+    /* Respetamos los márgenes inferiores y superiores */
     }
     form {
         display: inline-block;
     }
+    /* Centramos el contenido del section con un flex */
     section {
         display:-webkit-flex;
         display:flex;
         -webkit-flex-direction:column;
         flex-direction:column;
     }
+    /* Le decimos que nos ponga en la parte superior el article */
     section article {
         -webkit-order:1;
         order:1;
     }
+    /* Y en la inferior el aside */
     section aside {
         -webkit-order:2;
         order:2;
         float:initial;
         width:initial;
     }
+    /* Hacemos que el mapa vaya cambiando de tamaño de forma responsive */
     .iframe-rwd iframe {
         position: absolute;
         top: 0;
@@ -109,6 +122,6 @@ select:focus > option:checked {
         padding-bottom: 65.25%;
         padding-top: 30px;
         height: 0;
-        overflow: hidden;
+        overflow: hidden; /* Evitamos que el mapa se desborde */
     }
 }
