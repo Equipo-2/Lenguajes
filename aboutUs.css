@@ -8,20 +8,20 @@
     padding-left: 30px; /*Relleno de la parte izquierda*/
     padding-right: 30px; /*Relleno de la parte derecha*/
     outline-style: solid; /*Relleno externo de esta parte*/
-    outline-color:#dd1c21;
+    outline-color:#dd1c21; /*Color de la línea externa*/
   
 
 }
 .bordes2{
     border-style: solid ;
     border-width: 2px ;
-    border-top: floralwhite ;
-    border-left: floralwhite;
+    border-top: floralwhite ; /*Color del borde superior*/
+    border-left: floralwhite; 
     border-right: floralwhite;
-    border-bottom: 4px solid #dd1c21; /*Borde subrayado*/
-    background-color: lightgrey;
-    padding-right: 30px;
-    padding-left: 30px;
+    border-bottom: 4px solid #dd1c21; /*Borde subrayado, con color del borde establecido*/
+    background-color: rgb(250, 133, 133); /*Color de fondo de la parte de abajo de la tabla */
+    padding-right: 30px; 
+    padding-left: 30px; 
     border-radius: 9px;    
 }
 
@@ -96,14 +96,8 @@ html {
 }
 
 .horario{
-    margin: auto;
-    width: 50%;
-    text-align: center;
-}
-
-.horario table{
-    margin-left: auto;
-    margin-right: auto;
+    width: 60%;
+    margin: auto
 }
 
 .linebreak{
@@ -114,5 +108,9 @@ iframe {
     margin: 0 auto;
     display:block;
     border-radius: 50px;
+}
+
+section.objetivo {
+    text-align: center;
 }
 
