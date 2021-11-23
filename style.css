@@ -1,3 +1,4 @@
+/* Ajustamos que el tamaño del html sea como minimo el 100% de la pagina y su posicion relativa */
 html {
   min-height: 100%;
   position: relative;
@@ -11,6 +12,7 @@ body {
   margin-bottom: 50px;
 }
 
+/* Modificamos el header, cambiando el color, el tamaño, la posicion y el ajuste */
 header {
   background-color: black;
   width: 100%;
@@ -18,7 +20,7 @@ header {
   display: inline-block;
 }
 /* Header de la web, modificamos el h1 */
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap'); /* Import de la fuente */
 header h1{
   margin: 20px;
   font-size:3.5em;
@@ -28,6 +30,7 @@ header h1{
   text-align: center;
 }
 
+/* Importamos la fuente Shippori */
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
 h1{
   font-family: 'Shippori Antique B1', sans-serif;
@@ -72,12 +75,13 @@ nav li a{
 	background-position: 0% 100%;
 	background-repeat: no-repeat;
 	background-size: 0% 2px;
-	transition: background-size .3s;
+	transition: background-size .2s;
 }
 
 /* Modificamos lo que hay despues de los enlaces de la lista*/
 nav li a:hover{
   background-size: 100% 2px;
+  color: red;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
@@ -105,6 +109,7 @@ footer div a{
   color: white;
 }
 
+/* Modificamos el fondo de la pagina de contacto poniendole una imagen con efecto parallax*/
 body#contacto {
   background-image: url("https://images.unsplash.com/photo-1633983224634-2244a7bef3b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
   background-attachment: fixed;
@@ -113,6 +118,7 @@ body#contacto {
   background-size: cover;
 }
 
+/* Modificamos el bloque de contacto, añadiendo espacio debajo y arriba, poniendole un gradiente y ajustando su opacidad */
 section#contacto {
   margin-top: 10%;
   margin-bottom: 10%;
@@ -121,6 +127,7 @@ section#contacto {
   opacity: .90;
 }
 
+/* Modificamos el texto para añadirle padding en los laterales */
 .texto{
   padding-left: 3%;
   padding-right: 3%;
