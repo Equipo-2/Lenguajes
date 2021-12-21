@@ -6,7 +6,6 @@ html {
 
 /* Fondo de la web */
 body {
-<<<<<<< Updated upstream
   background-color: white;
   background-repeat: no-repeat;
   margin: 0;
@@ -45,66 +44,6 @@ nav{
   background-color: white;
   height: 50px;
 }
-=======
-    background-image:url(https://images.unsplash.com/photo-1508108712903-49b7ef9b1df8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80);
-    background-size: cover;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Arial';
-}
-
-header h1{
-    text-align: center;
-    margin: 20px;
-    text-transform: uppercase;
-    font-family: 'Arial';
-    font-size: 50px;
-}
-
-span#team {
-  color: red;
-}
-nav ul {
-  display: inline-block;
-  padding:18px;
-}
-
-nav ul li {
-  list-style-type: none;
-  float: left;
-}
-nav{
-    width: 100%;
-    position: absolute;
-    top:70px;
-    text-align:center;
-}
-nav a{
-    font-family: 'Arial';
-    font-weight:500;
-    text-transform:uppercase;
-    text-decoration:none;
-    color:#16151b;
-    margin: 0px 18px;
-    font-size:16px;
-    letter-spacing:1px;
-    position:relative;
-    display:inline-block;
-}
-
-nav a:before{
-    content:'';
-    position: absolute;
-    width: 100%;
-    height: 3px;
-    background:#16151b;
-    top:47%;
-    animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
-}
-nav a:hover:before{
-  animation:in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
->>>>>>> Stashed changes
 
 /* Modificamos la lista */
 nav ul{
@@ -154,7 +93,6 @@ p{
 
 /* Modificamos el footer */
 footer {
-<<<<<<< Updated upstream
   height:50px;
   line-height:50px;
   background:rgb(0, 0, 0);
@@ -163,23 +101,10 @@ footer {
   position: absolute;
   bottom: 0;
   width:100%;
-=======
-    height:50px;
-    line-height:50px;
-    background:rgb(0, 0, 0);
-    color:white;
-    text-align:center;
-    position:fixed;
-    bottom:0;
-    left:0;
-    width:100%;
-    font-family: 'Arial';
->>>>>>> Stashed changes
 }
 
 /*Modificamos los enlaces del footer*/
 footer div a{
-<<<<<<< Updated upstream
   text-decoration:none;
   color: white;
 }
@@ -207,13 +132,3 @@ section#contacto {
   padding-left: 3%;
   padding-right: 3%;
 }
-=======
-    text-decoration:none;
-    color: white;
-}
-
-footer div a:hover{
-  text-decoration:none;
-  color: gray;
-}
->>>>>>> Stashed changes
