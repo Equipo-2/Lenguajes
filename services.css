@@ -100,3 +100,33 @@ h2{
     font-family: 'Shippori Antique B1', sans-serif;
   }
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+
+.grid-item {
+  background-color: rgba(192, 56, 56, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .grid-item {
+    background-color: rgba(192, 56, 56, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+  }
+}
