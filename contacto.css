@@ -26,57 +26,6 @@ aside{
     float: right;
 }
 
-
-
-/* Le damos unos márgenes interiores y exteriores, además de darle una fuente; además de darle una forma de caja al input */
-input {
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    font-family: 'Baloo 2', cursive;
-  }
-
-/* Formateamos la caja donde se introducirá el texto del comentario, le damos una altura, bordes interiores, un borde redondeado y evitamos que se pueda cambiar el tamaño */
-textarea{
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border-radius: 4px;
-    resize: none;
-}
-/* Le damos estilo a los botones y hacemos que el cursor cambie de tipo */
-input[type=button], input[type=submit], input[type=reset] {
-    display: inline-block;
-    background-color: #dd1c21;
-    border: none;
-    color: white;
-    padding: 13px 30px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: 4px 2px;
-    cursor: pointer;
-    font-family: 'Baloo 2', cursive;
-  }
-
-  /* Le damos la fuente a las palabras dentro del label y del textarea */
-label, textarea{
-    font-family: 'Baloo 2', cursive;
-}
-
-/* Hacemos que en el select, el elemento seleccionado inicialmente aparezca en rojo */
-select:focus > option:checked { 
-    background: #dd1c21 !important;
-}
-
-/* Hacemos que, cuando la pantalla esté a 900px, se cambie la anchura de los elementos .margenForm, input[type=submit], input[type=reset] */
-@media screen and (max-width: 900px) {
-    .margenForm, input[type=submit], input[type=reset] {
-      width: 100%;
-      margin-top: 0;
-    }
-}
-
 /* Para evitar que el mapa se superponga con el formulario, lo mandamos abajo y hacemos que su tamaño sea variable */
 @media (max-width:1600px) {
     /* Alineamos todo al centro */
