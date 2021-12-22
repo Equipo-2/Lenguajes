@@ -16,8 +16,4 @@ section#contacto {
   opacity: .90;
 }
 
-/* Modificamos el texto para añadirle padding en los laterales */
-.texto{
-  padding-left: 3%;
-  padding-right: 3%;
-}
+

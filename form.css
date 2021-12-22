@@ -26,10 +26,7 @@ aside{
     float: right;
 }
 
-/* Le damos un margen interior al container de los elementos del formulario, para separarlos */
-.margenForm{
-    padding: 0 0 15px;
-}
+
 
 /* Le damos unos márgenes interiores y exteriores, además de darle una fuente; además de darle una forma de caja al input */
 input {
@@ -109,19 +106,6 @@ select:focus > option:checked {
         float:initial;
         width:initial;
     }
-    /* Hacemos que el mapa vaya cambiando de tamaño de forma responsive */
-    .iframe-rwd iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-    .iframe-rwd  {
-        position: relative;
-        padding-bottom: 65.25%;
-        padding-top: 30px;
-        height: 0;
-        overflow: hidden; /* Evitamos que el mapa se desborde */
-    }
+    
+   
 }
