@@ -12,22 +12,21 @@
     <!-- Responsive (que la página se adapte a dispositivos móviles) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Favicon tope flama pa que nuestra web quede to reshulona-->
-    <link rel="stylesheet" href="form.css" />
     <link rel="icon" type="image/png" href="./img/favicon.png" />
+    <!-- Fuentes, necesario para que se vean las fuentes en la página -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">  
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap" rel="stylesheet">  
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Biryani:wght@200&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
-    
+    <!-- Css -->
     <link rel="stylesheet" href="style.css"/>
 
   </head>
@@ -58,7 +57,7 @@
       </nav>
     <!--Tabla formulario y mapa-->
     <section id="contacto">
-      <h1>¿Tienes dudas? <strong>¡Contáctanos!</strong></h1>
+      <h1 class="titulos">¿Tienes dudas? <strong>¡Contáctanos!</strong></h1>
       <!--Mapa-->
       <aside>
         <div class="iframe-rwd">   
@@ -72,53 +71,53 @@
               <div class="container mt-3">
               <form action="/action_page.php" class="was-validated">
               <div class="mb-3 mt-3">
-                <label for="uname" class="form-label">Usuario:</label>
+                <label for="uname" class="form-label" class="textos">Usuario:</label>
                 <input type="text" class="form-control" id="uname" placeholder="Introduzca su nombre" data-bs-toggle="tooltip" title="Introduzca su nombre" name="uname" required>
                 <i class="fa fa-user fa-lg"></i>
-                <div class="valid-feedback">Válido.</div>
-                <div class="invalid-feedback">Por favor, complete este apartado.</div>
+                <div class="valid-feedback" class="textos">Válido.</div>
+                <div class="invalid-feedback" class="textos">Por favor, complete este apartado.</div>
               </div>
               <!--Telefono de la persona, minimo 5 caracteres, máximo 30, Obligatorio. Introducimos un patrón para comprobar que, realmente, se está introduciendo un teléfono.-->
               <div class="mb-3">
                 <label for="tel" class="form-label">Teléfono:</label>
                 <input type="tel" class="form-control" id="phone" pattern="^[9|8|7|6]\d{8}$" data-bs-toggle="tooltip" title="Introduzca su teléfono" placeholder="6XXXXXXXX" name="tel" required>
                 <i class="fa fa-phone fa-lg"></i>
-                <div class="valid-feedback">Válido.</div>
-                <div class="invalid-feedback">Por favor, complete este apartado.</div>
+                <div class="valid-feedback" class="textos">Válido.</div>
+                <div class="invalid-feedback" class="textos">Por favor, complete este apartado.</div>
               </div>
               <!--Correo de la persona, minimo 5 caracteres, máximo 30, Obligatorio-->
               <div class="mb-3 mt-3">
                 <label for="email" class="form-label">Correo electrónico:</label>
                 <input type="email" class="form-control" id="email" data-bs-toggle="tooltip" title="Introduzca su correo" placeholder="ejemplo@jemplo.com" name="email" required>
                 <i class="fa fa-envelope fa-lg"></i>
-                <div class="valid-feedback">Válido.</div>
-                <div class="invalid-feedback">Por favor, complete este apartado.</div>
+                <div class="valid-feedback" class="textos">Válido.</div>
+                <div class="invalid-feedback" class="textos">Por favor, complete este apartado.</div>
               </div>
               <!--Campo de selección de asunto que se refiere Obligatorio-->
               <div class="margenForm">
-                <label for="Asunto">Asunto*:</label>
+                <label for="Asunto" class="textos">Asunto*:</label>
                 <select class="fondito" id="simple" name="simple" required>
-                    <option disabled selected value>Selecciona uno</option>
-                    <option>Sugerencias</option>
-                    <option>Merchandising</option>
-                    <option>Problemas con la web</option>
+                    <option disabled selected value class="textos">Selecciona uno</option>
+                    <option class="textos">Sugerencias</option>
+                    <option class="textos">Merchandising</option>
+                    <option class="textos">Problemas con la web</option>
                 </select>
               </div>
               <!--Género de la persona-->
               <div class="mb-3 mt-3">
-                <label for="uname" class="form-label">Género:</label>
+                <label for="uname" class="form-label" class="textos">Género:</label>
                 <form action="/action_page.php">
                   <div class="form-check">
                     <input type="radio" class="form-check-input" id="radio1" name="optradio" value="radio1" checked>
-                    <label class="form-check-label" for="radio1">Hombre</label>
+                    <label class="form-check-label" for="radio1" class="textos">Hombre</label>
                   </div>
                   <div class="form-check">
                     <input type="radio" class="form-check-input" id="radio2" name="optradio" value="radio2">
-                    <label class="form-check-label" for="radio2">Mujer</label>
+                    <label class="form-check-label" for="radio2" class="textos">Mujer</label>
                   </div>
                   <div class="form-check">
                     <input type="radio" class="form-check-input" id="radio3" name="optradio" value="radio3">
-                    <label class="form-check-label">No binario</label>
+                    <label class="form-check-label" class="textos">No binario</label>
                   </div>
                 </form>
               </div>
@@ -131,9 +130,9 @@
                 <form action="/action_page.php" class="was-validated">
                   <div class="form-check mb-3">
                     <input class="form-check-input" type="checkbox" id="myCheck"  name="remember" required>
-                    <label class="form-check-label" for="myCheck"><- Al hacer clic aceptas nuestros <a href="#">términos y condiciones</a></label>
-                    <div class="valid-feedback">Válido.</div>
-                    <div class="invalid-feedback">Por favor, complete este apartado.</div>
+                    <label class="form-check-label" for="myCheck" class="textos"> Al hacer clic aceptas nuestros <a href="#">términos y condiciones</a></label>
+                    <div class="valid-feedback" class="textos">Válido.</div>
+                    <div class="invalid-feedback" class="textos">Por favor, complete este apartado.</div>
                   </div>
                 </form>
               </div>
