@@ -22,12 +22,6 @@ article h2 {
     height: 500px;
 }
 
-/* Importamos la fuente Shippori para los titulos 1, 2 y 3 */
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
-h1,h2,h3 {
-    font-family: 'Shippori Antique B1', sans-serif;
-}
-
 /* Modificamos el color del titulo 1 de la columna 2 y el tamaño de la misma */
 .column2 h1 {
     color: black;
