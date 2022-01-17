@@ -1,0 +1,47 @@
+/* Modificamos la barra de navegación */
+nav{
+    width: 100%;
+    position: relative;
+    text-align:center;
+    background-color: white;
+    height: 50px;
+  }
+    
+  /* Modificamos la lista */
+  nav ul{
+    list-style-type: none;
+    padding-left:0px !important;
+    display: inline-block;
+  }
+    
+  /* Modificamos los elementos de la lista */
+  nav li{
+    display: inline-block;
+    margin: 0px 15px;
+  }
+    
+  /* Modificamos los enlaces de la lista */
+  @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+  nav li a{
+    font-family: 'Dosis', sans-serif;
+    font-weight:600;
+    text-transform:uppercase;
+    text-decoration:none;
+    color:#16151b;
+    font-size:16px;
+    letter-spacing:1px;
+    position:relative;
+    display:inline-block;
+    text-decoration: none;
+      background-image: linear-gradient(currentColor, currentColor);
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 0% 2px;
+      transition: background-size .2s;
+  }
+    
+  /* Modificamos lo que hay despues de los enlaces de la lista*/
+  nav li a:hover{
+    background-size: 100% 2px;
+    color: red;
+  }

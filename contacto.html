@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Título de la página --><title>Contacto - Dream Team</title>
+    <!-- Descripción de la web -->
+    <meta name="description" content="Tienda líder en merchandising sobre videjuegos."/>
+    <!-- Cosas to shungas del SEO -->
+    <meta name="keywords" content="gaming, merchandising, esports" />
+    <!-- Autor/a de la web -->
+    <meta name="author" content="Iván Márquez Morales" />
+    <!-- Responsive (que la página se adapte a dispositivos móviles) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Favicon tope flama pa que nuestra web quede to reshulona-->
+    <link rel="stylesheet" href="form.css" />
+    <link rel="icon" type="image/png" href="./img/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap" rel="stylesheet">  
+
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  </head>
+  <body id="contacto">
+    <header>
+    <!--Titulo de la página-->
+      <h1>Formulario de contacto</h1>
+    </header>
+    <!--Barra de navegación-->
+    <nav>
+        <ul>
+          <li>
+            <a href="./index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="./aboutUs.html">Conócenos</a>
+          </li>
+          <li>
+            <a href="./services.html">Tienda</a>
+          </li>
+          <li>
+            <a href="./galeria.html">Galería</a>
+          </li>
+          <li>
+            <a href="./contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    <!--Tabla formulario y mapa-->
+    <section id="contacto">
+      <h1>¿Tienes dudas? <strong>¡Contáctanos!</strong></h1>
+      <!--Mapa-->
+      <aside>
+        <div class="iframe-rwd">   
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.7184396746134!2d-4.474509184368632!3d36.705303280734825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f792930e5b41%3A0xb2eb350831766070!2sGIANTS%20GAMING!5e0!3m2!1ses!2ses!4v1634147563592!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </aside>
+
+      <!--Formulario-->
+        <section">
+              <!--Nombre de la persona, minimo 5 caracteres, máximo 30, Obligatorio-->
+              <div class="container mt-3">
+              <form action="/action_page.php" class="was-validated">
+              <div class="mb-3 mt-3">
+                <label for="uname" class="form-label">Usuario:</label>
+                <input type="text" class="form-control" id="uname" placeholder="Introduzca su nombre" data-bs-toggle="tooltip" title="Introduzca su nombre" name="uname" required>
+                <i class="fa fa-user fa-lg"></i>
+                <div class="valid-feedback">Válido.</div>
+                <div class="invalid-feedback">Por favor, complete este apartado.</div>
+              </div>
+              <!--Telefono de la persona, minimo 5 caracteres, máximo 30, Obligatorio. Introducimos un patrón para comprobar que, realmente, se está introduciendo un teléfono.-->
+              <div class="mb-3">
+                <label for="tel" class="form-label">Teléfono:</label>
+                <input type="tel" class="form-control" id="phone" pattern="^[9|8|7|6]\d{8}$" data-bs-toggle="tooltip" title="Introduzca su teléfono" placeholder="6XXXXXXXX" name="tel" required>
+                <i class="fa fa-phone fa-lg"></i>
+                <div class="valid-feedback">Válido.</div>
+                <div class="invalid-feedback">Por favor, complete este apartado.</div>
+              </div>
+              <!--Correo de la persona, minimo 5 caracteres, máximo 30, Obligatorio-->
+              <div class="mb-3 mt-3">
+                <label for="email" class="form-label">Correo electrónico:</label>
+                <input type="email" class="form-control" id="email" data-bs-toggle="tooltip" title="Introduzca su correo" placeholder="ejemplo@jemplo.com" name="email" required>
+                <i class="fa fa-envelope fa-lg"></i>
+                <div class="valid-feedback">Válido.</div>
+                <div class="invalid-feedback">Por favor, complete este apartado.</div>
+              </div>
+              <!--Campo de selección de asunto que se refiere Obligatorio-->
+              <div class="margenForm">
+                <label for="Asunto">Asunto*:</label>
+                <select class="fondito" id="simple" name="simple" required>
+                    <option disabled selected value>Selecciona uno</option>
+                    <option>Sugerencias</option>
+                    <option>Merchandising</option>
+                    <option>Problemas con la web</option>
+                </select>
+              </div>
+              <!--Género de la persona-->
+              <div class="mb-3 mt-3">
+                <label for="uname" class="form-label">Género:</label>
+                <form action="/action_page.php">
+                  <div class="form-check">
+                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="radio1" checked>
+                    <label class="form-check-label" for="radio1">Hombre</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="radio" class="form-check-input" id="radio2" name="optradio" value="radio2">
+                    <label class="form-check-label" for="radio2">Mujer</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="radio" class="form-check-input" id="radio3" name="optradio" value="radio3">
+                    <label class="form-check-label">No binario</label>
+                  </div>
+                </form>
+              </div>
+              <!--Mensaje de la persona, mínimo 5 caracteres, máximo 500. Obligatorio-->
+              <div class="margenForm mensaje">
+                <textarea type="text" id="message" placeholder="Escribe aquí tu mensaje" minlength="5" maxlength="500" size="30" rows="8" cols="40" data-bs-toggle="tooltip" title="Escribe un texto de entre 5 y 500 caracteres." required></textarea>
+              </div>
+              <!--Checkbox de terminos y condiciones-->
+              <div class="container mt-3">
+                <form action="/action_page.php" class="was-validated">
+                  <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" id="myCheck"  name="remember" required>
+                    <label class="form-check-label" for="myCheck"><- Al hacer clic aceptas nuestros <a href="#">términos y condiciones</a></label>
+                    <div class="valid-feedback">Válido.</div>
+                    <div class="invalid-feedback">Por favor, complete este apartado.</div>
+                  </div>
+                </form>
+              </div>
+              <!--Botón de enviar y resetear-->
+              <div class="margenForm">
+                <input id="submit_button" type="submit" value="Enviar" /><input id="reset" type="reset" value="Borrar" />
+              </div>
+            </section>  
+    </section>
+    <footer>
+      <div>
+        2021 &copy; Dream Team Store | <a href="./avisolegal.html">Aviso Legal</a> |
+        <a href="./cookies.html">Política de cookies</a>
+      </div>
+   </footer>
+  </body>
+</html>
