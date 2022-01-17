@@ -5,15 +5,6 @@
     padding: 0 8px;
 }
 
-/* Modificamos el iframe (video) ajustando su tamaño al 60% y margen de la izq al 20% para que esté centrado y su radio sea de 50px */
-iframe{
-    width: 60%;
-    margin-left: 20%;
-    margin: 0 auto;
-    display:block;
-    border-radius: 50px;
-}
-
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -24,16 +15,4 @@ iframe{
     width: 100%;
     display: block;
     }
-}
-
-/* Modificamos card, añadiendole una sombra  */
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-/* Modificamos antes y despues del container deja espacio para el siguiente bloque y aplica un estilo de tabla */
-.container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
 }

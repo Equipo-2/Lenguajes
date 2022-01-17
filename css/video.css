@@ -30,3 +30,12 @@
         width: 100%;
     }
 } 
+
+/* Modificamos el iframe (video) ajustando su tamaño al 60% y margen de la izq al 20% para que esté centrado y su radio sea de 50px */
+iframe{
+    width: 60%;
+    margin-left: 20%;
+    margin: 0 auto;
+    display:block;
+    border-radius: 50px;
+}
