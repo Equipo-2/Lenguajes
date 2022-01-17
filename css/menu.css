@@ -1,0 +1,25 @@
+/* Modificamos los enlaces de la lista */
+  @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+  .nav-link{
+    font-family: 'Dosis', sans-serif;
+    font-weight:600;
+    text-transform:uppercase;
+    text-decoration:none;
+    color: white !important;
+    font-size:16px;
+    letter-spacing:1px;
+    position:relative;
+    display:inline-block;
+    text-decoration: none;
+      background-image: linear-gradient(currentColor, currentColor);
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 0% 2px;
+      transition: background-size .2s;
+  }
+    
+  /* Modificamos lo que hay despues de los enlaces de la lista*/
+  .nav-link:hover{
+    background-size: 100% 2px;
+    color: #dd1c21 !important;
+  }
