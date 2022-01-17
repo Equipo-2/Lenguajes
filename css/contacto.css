@@ -1,0 +1,52 @@
+/* Centramos la sección, le damos espaciado interior y un fondo */
+section{
+    margin: auto;
+    width: 70%;
+    padding: 3%;
+    background-color: white;
+}
+
+/* Mandamos el aside a la parte derecha */
+aside{
+    float: right;
+}
+
+/* Para evitar que el mapa se superponga con el formulario, lo mandamos abajo y hacemos que su tamaño sea variable */
+@media (max-width:1600px) {
+    /* Alineamos todo al centro */
+    body {
+        text-align: center;
+    /* Respetamos los márgenes inferiores y superiores */
+    }
+    form {
+        display: inline-block;
+    }
+    /* Centramos el contenido del section con un flex */
+    section {
+        display:-webkit-flex;
+        display:flex;
+        -webkit-flex-direction:column;
+        flex-direction:column;
+    }
+    /* Le decimos que nos ponga en la parte superior el article */
+    section article {
+        -webkit-order:1;
+        order:1;
+    }
+    /* Y en la inferior el aside */
+    section aside {
+        -webkit-order:2;
+        order:2;
+        float:initial;
+        width:initial;
+    }
+}
+  
+  /* Modificamos el bloque de contacto, añadiendo espacio debajo y arriba, poniendole un gradiente y ajustando su opacidad */
+  section#contacto {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 50px;
+    background-image: linear-gradient(to top, gray, white);
+    opacity: .90;
+  }
