@@ -6,7 +6,7 @@
 }
 
 /* Modificamos las columnas de servicios */
-.servicios .column {
+.servicios .column_index {
     width: 33%;
     text-align: center;
 }
