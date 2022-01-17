@@ -3,7 +3,6 @@ input {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    font-family: 'Baloo 2', cursive;
   }
 
 /* Formateamos la caja donde se introducirá el texto del comentario, le damos una altura, bordes interiores, un borde redondeado y evitamos que se pueda cambiar el tamaño */
