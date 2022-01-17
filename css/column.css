@@ -5,6 +5,27 @@
     padding: 0 8px;
 }
 
+/* Modificamos las columnas de servicios */
+.servicios .column {
+    width: 33%;
+    text-align: center;
+}
+/* Modificamos todo el bloque de servicios */
+.servicios {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+@media screen and (max-width: 1020px) {
+    .column_index {
+        display: grid;
+        width: 20%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+    }
+}
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -17,3 +38,41 @@
     }
 }
 
+/* Modificamos el h2 del article para ponerlo centrarlo y darle un margen de 5% */
+article h2 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+/* Modificamos el titulo uno de la columna 2 */
+.column2 h1 {
+    font-size: 50px;
+}
+
+/* Modificamos el parrafo de la columna 2 */
+.column2 p {
+    font-size: 30px;
+}
+
+/* Modificamos el color del titulo 1 de la columna 2 y el tamaño de la misma */
+.column2 h1 {
+    color: black;
+    font-size: 50px;
+}
+
+/* Modificamos el bloque de testimonios, dandole fondo, tamaño, disposicion y espacio */
+.testimonios {
+    background-color: #dd1c21;
+    height: 300px;
+    display: inline-block;
+    width: 100%;
+}
+
+/* Modificamos el enlace del botón haciendolo bold, centrandolo, sin decoración, ajustando la fuente, y el espacio entre letras */
+.botoncillo a{
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    white-space: nowrap;
+}
