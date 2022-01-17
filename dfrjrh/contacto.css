@@ -6,16 +6,6 @@ section{
     background-color: white;
 }
 
-/* Importamos las fuentes, centramos el h1, lo ponemos en mayúsculas y le damos un margen inferior */
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
-section h1{
-    font-family: 'Shippori Antique B1', sans-serif;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 5%;
-}
-
 /* Mandamos el aside a la parte derecha */
 aside{
     float: right;
@@ -50,8 +40,6 @@ aside{
         float:initial;
         width:initial;
     }
-    
-   
 }
   
   /* Modificamos el bloque de contacto, añadiendo espacio debajo y arriba, poniendole un gradiente y ajustando su opacidad */
