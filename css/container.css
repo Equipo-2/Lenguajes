@@ -1,4 +1,3 @@
-/* Modificamos antes y despues del container deja espacio para el siguiente bloque y aplica un estilo de tabla */
 .container::after, .row::after {
     content: "";
     clear: both;
