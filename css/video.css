@@ -1,4 +1,3 @@
-/* Modificamos la clase video, poniendo su tamaño al 100%, el fondo a color negro, con un paddig arriba y abajo */
 .videoAbout{
     width: 100%;
     background-color: black;
@@ -6,7 +5,7 @@
     padding-bottom: 1%;
 }
 
-.centrarGaleria{
+.videosGaleria{
     display: table;
     margin: 0 auto;
     text-align: center;
