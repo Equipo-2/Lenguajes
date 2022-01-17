@@ -1,0 +1,51 @@
+/* Definimos los parámetros de las columnas */
+
+.column {
+    float: left;
+    width: 25%;
+    margin: auto;
+    height: auto;
+    padding: 4.16%;
+    text-align: center;
+    background-color:#db4d52; /*fccb62*/
+    /*border: 1px solid rgb(0, 0, 0);*/
+  }
+ 
+.column1 {
+    float: left;
+    width: 25%;
+    margin: auto;
+    height: auto;
+    padding: 4.16%;
+    text-align: center;
+    background-color:#dd3e44; /*fcc54e*/
+    /*border: 1px solid rgb(0, 0, 0);*/
+  }
+
+.column2 {
+    float: left;
+    width: 25%;
+    margin: auto;
+    height: auto;
+    padding: 4.16%;
+    text-align: center;
+    background-color:#e23137; /*fabc36*/
+    /*border: 1px solid rgb(0, 0, 0);*/
+  }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column_text {
+      column-count: 1;
+      column-gap: 35px;
+      column-rule: 4px solid #b41c35;
+      text-align: justify;
+      font-size: 80%;
+      padding: 5%;
+    }
+}
