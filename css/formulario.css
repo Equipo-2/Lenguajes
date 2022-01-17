@@ -49,11 +49,6 @@ section{
   background-color: white;
 }
 
-/* Mandamos el aside a la parte derecha */
-aside{
-  float: right;
-}
-
 /* Para evitar que el mapa se superponga con el formulario, lo mandamos abajo y hacemos que su tamaño sea variable */
 @media (max-width:1600px) {
   /* Alineamos todo al centro */
@@ -92,8 +87,4 @@ section#contacto {
   border-radius: 10px;
   background-image: linear-gradient(to top, lightgrey, darkgrey);
   opacity: .90;
-}
-
-body {
-  background-image: url('img/abstract-hexagon-pattern.jpg') no-repeat 0 0;
 }
