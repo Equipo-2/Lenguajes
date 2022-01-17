@@ -10,6 +10,14 @@
     width: 33%;
     text-align: center;
 }
+
+@media screen and (max-width: 1020px) {
+    .servicios .column_index {
+        width: 99%;
+        text-align: center;
+    }
+}
+
 /* Modificamos todo el bloque de servicios */
 .servicios {
     width: 100%;
@@ -31,12 +39,12 @@
 }
 
 /* Modificamos la columna para que ocupe el 100% cuando la pagina sea hasta 1020px, display block, impide que haya objetos en el lateral */
-@media screen and (max-width: 1020px) {
+
     .column {
     width: 100%;
     display: block;
     }
-}
+
 
 /* Modificamos el h2 del article para ponerlo centrarlo y darle un margen de 5% */
 article h2 {
