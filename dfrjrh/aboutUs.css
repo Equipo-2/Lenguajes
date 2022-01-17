@@ -12,6 +12,7 @@
   
 
 }
+
 .bordes2{
     border-style: solid ;
     border-width: 2px ;
@@ -23,18 +24,6 @@
     padding-right: 30px; 
     padding-left: 30px; 
     border-radius: 9px;    
-}
-
-/* Importamos la fuente Shippori a titulo 2 */
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
-h2{
-    font-family: 'Shippori Antique B1', sans-serif;
-    text-align: center;
-}
-
-/* Modificamos el h3 poniendo la fuente Shippori */
-h3{
-    font-family: 'Shippori Antique B1', sans-serif;
 }
 
 /* Modificamos el parrafo, ajustando el tamaño que ocupa al 60%, añadiendole unos margenes automaticos, alineandolo al centro, y añadiendo un margen debajo del 2% */
@@ -87,20 +76,9 @@ html {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-
-
 /* Modificamos antes y despues del container deja espacio para el siguiente bloque y aplica un estilo de tabla */
 .container::after, .row::after {
     content: "";
     clear: both;
     display: table;
 }
-
-
-
-
-
-
-
-
-

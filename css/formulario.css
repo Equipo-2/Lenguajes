@@ -26,7 +26,6 @@ input[type=button], input[type=submit], input[type=reset] {
     text-transform: uppercase;
     margin: 4px 2px;
     cursor: pointer;
-    font-family: 'Baloo 2', cursive;
   }
 
   /* Le damos la fuente a las palabras dentro del label y del textarea */
