@@ -1,6 +1,10 @@
 /* Definimos los parámetros de las columnas */
 
+<<<<<<< Updated upstream:css/column.css
 .column_services01 {
+=======
+.column_services_01 {
+>>>>>>> Stashed changes:css/columna.css
     float: left;
     width: 25%;
     margin: auto;
@@ -11,7 +15,11 @@
     /*border: 1px solid rgb(0, 0, 0);*/
   }
  
+<<<<<<< Updated upstream:css/column.css
 .column_services02 {
+=======
+.column_services_02 {
+>>>>>>> Stashed changes:css/columna.css
     float: left;
     width: 25%;
     margin: auto;
@@ -22,7 +30,11 @@
     /*border: 1px solid rgb(0, 0, 0);*/
   }
 
+<<<<<<< Updated upstream:css/column.css
 .column_services03 {
+=======
+.column_services_03 {
+>>>>>>> Stashed changes:css/columna.css
     float: left;
     width: 25%;
     margin: auto;
@@ -40,7 +52,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    .column_text {
+    .column_services_text {
       column-count: 1;
       column-gap: 35px;
       column-rule: 4px solid #b41c35;
