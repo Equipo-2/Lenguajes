@@ -35,3 +35,9 @@ input[type=button], input[type=submit], input[type=reset] {
       margin-top: 0;
     }
 }
+
+.formGaleria{
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+}
