@@ -3,3 +3,24 @@
     height:auto;
     border-bottom: 2px solid rgb(165, 25, 20); /*235, 145, 44*/
 }
+
+.img-grid {
+display: flex;
+position:absolute;
+left: 68%;
+width: 30%;
+height: auto;
+bottom: 10%;
+top: 10%;
+}
+
+.img-grid2 {
+    display: flex;
+    position:absolute;
+    left: 2%;
+    width: 30%;
+    height: auto;
+    bottom: 10%;
+    top: 10%;
+    }
+    

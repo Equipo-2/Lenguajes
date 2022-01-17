@@ -1,0 +1,19 @@
+.column {
+    display: grid;
+    width: 20%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Modificamos la columna para que ocupe el 100% cuando la pagina sea hasta 1020px, display block, impide que haya objetos en el lateral */
+@media screen and (max-width: 1020px) {
+    .column {
+    width: 100%;
+    display: block;
+    }
+}
+
