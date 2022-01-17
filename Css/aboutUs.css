@@ -72,13 +72,7 @@ html {
     box-sizing: inherit;
 }
 
-/* Modificamos la columna para que esté a la izquierda, el tamaño al 20%, margen debajo de 16 pixeles y un padding de 0 en los arriba y abajo y en laterales 8px */
-.column {
-    float: left;
-    width: 20%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-}
+
 
 /* Modificamos la columna para que ocupe el 100% cuando la pagina sea hasta 1020px, display block, impide que haya objetos en el lateral */
 @media screen and (max-width: 1020px) {
@@ -93,10 +87,7 @@ html {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Modificamos el container dandole padding en los laterales de 16px */
-.container {
-    padding: 0 16px;
-}
+
 
 /* Modificamos antes y despues del container deja espacio para el siguiente bloque y aplica un estilo de tabla */
 .container::after, .row::after {
@@ -105,32 +96,11 @@ html {
     display: table;
 }
 
-/* Modificamos las imagenes de card, para que ocupen el 100% y la altura sea automatica */
-.card img{
-    width: 100%;
-    height: auto;
-}
 
-/* Modifcamos el horario, para que esté centrado y el espacio que ocupa sea la mitad */
-.horario{
-    margin: auto;
-    width: 50%;
-    text-align: center;
-}
 
-/* Modificamos la tabla de horario, para centrarla */
-.horario table{
-    margin-left: auto;
-    margin-right: auto;
-}
 
-/* Modificamos la leyenda de la imagen, Reduce espacios en blanco igual que el modo normal, pero suprime saltos de linea del origen. */
-.linebreak{
-    white-space: nowrap;
-}
 
-/* Alineamos el texto se la sección objetivo */
-section.objetivo {
-    text-align: center;
-}
+
+
+
 

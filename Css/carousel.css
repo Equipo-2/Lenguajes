@@ -114,9 +114,4 @@ img{
   width: 100%; 
 }
 
-/* Centramos el formulario de la galería */
-.centrarGaleria{
-  display: table;
-  margin: 0 auto;
-  text-align: center;
-}
+

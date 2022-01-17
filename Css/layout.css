@@ -1,38 +1,77 @@
-/* Modificamos el h2 del article para ponerlo centrarlo y darle un margen de 5% */
-article h2 {
-    text-align: center;
-    margin-top: 5%;
+/* Modificamos la columna para que esté a la izquierda, el tamaño al 20%, margen debajo de 16 pixeles y un padding de 0 en los arriba y abajo y en laterales 8px */
+.column {
+    float: left;
+    width: 20%;
+    margin-bottom: 16px;
+    padding: 0 8px;
 }
-
-/* Modificamos el titulo uno de la columna 2 */
-.column2 h1 {
-    font-size: 50px;
+/* Modificamos el container dandole padding en los laterales de 16px */
+.container {
+    padding: 0 16px;
 }
-
-/* Modificamos el parrafo de la columna 2 */
-.column2 p {
-    font-size: 30px;
-}
-
-/* Modificamos el header, añadiendole un fondo, ajustandolo y poniendo que su tamaño son 500px y ocupa el 100% de la pantalla */
-.header {
-    background-image: url("https://images.unsplash.com/photo-1612972806701-9cffb7470ed2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
-    background-size: cover;
+/* Modificamos las imagenes de card, para que ocupen el 100% y la altura sea automatica */
+.card img{
     width: 100%;
-    height: 500px;
+    height: auto;
 }
-
-/* Importamos la fuente Shippori para los titulos 1, 2 y 3 */
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
-h1,h2,h3 {
-    font-family: 'Shippori Antique B1', sans-serif;
-}
-
-/* Modificamos el tamaño de la columna 1 */
-.column1 {
+/* Modifcamos el horario, para que esté centrado y el espacio que ocupa sea la mitad */
+.horario{
+    margin: auto;
     width: 50%;
+    text-align: center;
+}
+/* Modificamos la tabla de horario, para centrarla */
+.horario table{
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Modificamos la leyenda de la imagen, Reduce espacios en blanco igual que el modo normal, pero suprime saltos de linea del origen. */
+.linebreak{
+    white-space: nowrap;
 }
 
+/* Alineamos el texto se la sección objetivo */
+section.objetivo {
+    text-align: center;
+}
+/* Modificamos el texto para añadirle padding en los laterales */
+.texto{
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  /* Le damos un margen interior al container de los elementos del formulario, para separarlos */
+.margenForm{
+    padding: 0 0 15px;
+}
+/* Hacemos que el mapa vaya cambiando de tamaño de forma responsive */
+.iframe-rwd iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.iframe-rwd  {
+    position: relative;
+    padding-bottom: 65.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden; /* Evitamos que el mapa se desborde */
+}
+/* Centramos el formulario de la galería */
+.centrarGaleria{
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .column1 img {
+    width: 50%;
+    height: 50%;
+    display:block;
+    margin:auto;
+    opacity: .95;
+    -webkit-box-reflect: left 0 linear-gradient(transparent, white);
+}
 /* Modifcamos la imagen de la columna 1 haciendo que su tamaño sea al 50%, display block, bloqueando que salga algo a su lado y deje espacio arriba y abajo, opacidad de .95 y un reflejo con gradiente */
 .column1 img {
     width: 50%;
@@ -42,83 +81,62 @@ h1,h2,h3 {
     opacity: .95;
     -webkit-box-reflect: left 0 linear-gradient(transparent, white);
 }
-
+/* Modificamos el tamaño de la columna 1 */
+.column1 {
+    width: 50%;
+}
 /* Modificamos el tamaño de la columna 2 */
 .column2 {
     width: 50%;
 }
-
-/* Modificamos el color del titulo 1 de la columna 2 y el tamaño de la misma */
-.column2 h1 {
-    color: black;
-    font-size: 50px;
-}
-
-/* Modificamos el parrafo de la columna 2, color, tamaño y margen a la derecha */
-.column2 p {
-    color: black;
-    font-size: 25px;
-    margin-right: 25px;
-}
-
 /* Modificamos la columna 1 de 5 para que el texto salga centrado y su tamaño sea de 20% */
 .column1-5 {
     width: 20%;
     text-align: center;
 }
-
 /* Modificamos la columna 2 de 5 para que el texto salga centrado y su tamaño sea de 20% */
 .column2-5 {
     width: 20%;
     text-align: center;
 }
-
 /* Modificamos la columna 3 de 5 para que el texto salga centrado y su tamaño sea de 20% */
 .column3-5 {
     width: 20%;
     text-align: center;
 }
-
 /* Modificamos la columna 4 de 5 para que el texto salga centrado y su tamaño sea de 20% */
 .column4-5 {
     width: 20%;
     text-align: center;
 }
-
 /* Modificamos la columna 5 de 5 para que el texto salga centrado y su tamaño sea de 20% */
 .column5-5 {
     width: 20%;
     text-align: center;
 }
-
 /* Modificamos la clase presentación para ajustar los margenes  */
 .presentacion {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 50px;
 }
-
+/* Modificamos el parrafo de la columna 2, color, tamaño y margen a la derecha */
+.column2 p {
+    color: black;
+    font-size: 25px;
+    margin-right: 25px;
+}
 /* Modificamos las imagenes de presentacion poniendole un tamaño por defecto y un padding */
 .presentacion img {
     width: 100%;
     height: 340px;
     padding: 3%;
 }
-
-/* Modificamos el bloque de testimonios, dandole fondo, tamaño, disposicion y espacio */
-.testimonios {
-    background-color: #dd1c21;
-    height: 300px;
-    display: inline-block;
-    width: 100%;
-}
-
 /* Modificamos el titulo 2 de testimonios, centrandolo y cambiandole el color */
 .testimonios h2 {
     text-align: center;
     color: white;
 }
-
 /* Modificamos el parrafo llamado text alineandolo al centro, poniendolo en italica, añadiendo margenes y color */
 .testimonios p#text {
     text-align: center;
@@ -127,7 +145,6 @@ h1,h2,h3 {
     margin-right: 20%;
     color: white;
 }
-
 /* Modificamos el parrafo llamado cliente en el que lo alineamos añadimos margenes ajustamos el ancho y el color */
 .testimonios p#cliente {
     text-align: center;
@@ -136,20 +153,17 @@ h1,h2,h3 {
     font-weight: bold;
     color: white;
 }
-
-/* Modificamos el parrago llamado puesto en el que lo alineamos añadimos margenes y le añadimos color */
+/* Modificamos el parrafo llamado puesto en el que lo alineamos añadimos margenes y le añadimos color */
 .testimonios p#puesto {
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
     color: white;
 }
-
 /* Ponemos equipo con una posicion relativa */
 .equipo {
     position: relative;
 }
-
 /* Modificamos el botón ajustando su posición, margenes, color de fondo, radio, padding */
 .botoncillo{
     display: flex;
@@ -162,23 +176,11 @@ h1,h2,h3 {
     margin-bottom: 1%;
     margin-top: 1%;
 }
-
-/* Modificamos el enlace del botón haciendolo bold, centrandolo, sin decoración, ajustando la fuente, y el espacio entre letras */
-.botoncillo a{
-    font-weight: bold;
-    text-decoration: none;
-    text-align: center;
-    color: white;
-    white-space: nowrap;
-    font-family: 'Shippori Antique B1', sans-serif;
-}
-
 /* Modificamos las columnas de servicios */
 .servicios .column {
     width: 33%;
     text-align: center;
 }
-
 /* Modificamos todo el bloque de servicios */
 .servicios {
     width: 100%;
