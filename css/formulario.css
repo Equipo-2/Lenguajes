@@ -89,7 +89,11 @@ aside{
 section#contacto {
   margin-top: 10%;
   margin-bottom: 10%;
-  border-radius: 50px;
-  background-image: linear-gradient(to top, gray, white);
+  border-radius: 10px;
+  background-image: linear-gradient(to top, lightgrey, darkgrey);
   opacity: .90;
+}
+
+body {
+  background-image: url('img/abstract-hexagon-pattern.jpg') no-repeat 0 0;
 }
