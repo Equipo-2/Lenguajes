@@ -28,16 +28,6 @@ input[type=button], input[type=submit], input[type=reset] {
     cursor: pointer;
   }
 
-  /* Le damos la fuente a las palabras dentro del label y del textarea */
-label, textarea{
-    font-family: 'Baloo 2', cursive;
-}
-
-/* Hacemos que en el select, el elemento seleccionado inicialmente aparezca en rojo */
-select:focus > option:checked { 
-    background: #dd1c21 !important;
-}
-
 /* Hacemos que, cuando la pantalla esté a 900px, se cambie la anchura de los elementos .margenForm, input[type=submit], input[type=reset] */
 @media screen and (max-width: 900px) {
     .margenForm, input[type=submit], input[type=reset] {

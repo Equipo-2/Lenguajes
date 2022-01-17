@@ -17,24 +17,9 @@ iframe{
     border-radius: 50px;
 }
 
-/* Modificamos la clase video, poniendo su tamaño al 100%, el fondo a color negro, con un paddig arriba y abajo */
-.video{
-    width: 100%;
-    background-color: black;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
-/* Modificamos la pagina para que se ajuste al tamaño del dispositivo */
-html {
-    box-sizing: border-box;
-}
-
-
 *, *:before, *:after {
     box-sizing: inherit;
 }
-
 
 
 /* Modificamos la columna para que ocupe el 100% cuando la pagina sea hasta 1020px, display block, impide que haya objetos en el lateral */

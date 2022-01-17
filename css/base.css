@@ -1,7 +1,6 @@
 /* Ajustamos que el tamaño del html sea como minimo el 100% de la pagina y su posicion relativa */
 html {
-  min-height: 100%;
-  position: relative;
+  box-sizing: border-box;
 }
   
 /* Fondo de la web */

@@ -1,0 +1,6 @@
+
+
+/* Le damos un color diferente a las palabras en negrita */
+section h1 strong{
+    color: #dd1c21;
+}
