@@ -1,0 +1,39 @@
+.column {
+    display: grid;
+    width: 20%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+/* Modificamos el iframe (video) ajustando su tamaño al 60% y margen de la izq al 20% para que esté centrado y su radio sea de 50px */
+iframe{
+    width: 60%;
+    margin-left: 20%;
+    margin: 0 auto;
+    display:block;
+    border-radius: 50px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Modificamos la columna para que ocupe el 100% cuando la pagina sea hasta 1020px, display block, impide que haya objetos en el lateral */
+@media screen and (max-width: 1020px) {
+    .column {
+    width: 100%;
+    display: block;
+    }
+}
+
+/* Modificamos card, añadiendole una sombra  */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Modificamos antes y despues del container deja espacio para el siguiente bloque y aplica un estilo de tabla */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
