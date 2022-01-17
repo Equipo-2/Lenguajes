@@ -1,7 +1,0 @@
-/* Modificamos la clase video, poniendo su tamaño al 100%, el fondo a color negro, con un paddig arriba y abajo */
-.video{
-    width: 100%;
-    background-color: black;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
