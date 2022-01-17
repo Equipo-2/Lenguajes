@@ -1,6 +1,6 @@
 /* Definimos los parámetros de las columnas */
 
-.column {
+.column_services01 {
     float: left;
     width: 25%;
     margin: auto;
@@ -11,7 +11,7 @@
     /*border: 1px solid rgb(0, 0, 0);*/
   }
  
-.column1 {
+.column_services02 {
     float: left;
     width: 25%;
     margin: auto;
@@ -22,7 +22,7 @@
     /*border: 1px solid rgb(0, 0, 0);*/
   }
 
-.column2 {
+.column_services03 {
     float: left;
     width: 25%;
     margin: auto;
