@@ -14,3 +14,7 @@ footer {
     text-decoration:none;
     color: white;
   }
+
+  footer div a:hover{
+    color: #dd1c21;
+  }
