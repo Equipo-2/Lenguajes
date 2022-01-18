@@ -35,6 +35,13 @@ input[type=button], input[type=submit], input[type=reset] {
     }
 }
 
+@media screen and (max-width: 740px) {
+  textarea {
+    width: 75%;
+    text-align: center;
+  }
+}
+
 .formGaleria{
   display: table;
   margin: 0 auto;
